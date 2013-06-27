@@ -1,0 +1,12 @@
+<p>
+  <strong>Name:</strong>
+  <%= @department.name %>
+</p>
+ 
+<p>
+  <strong>Story:</strong>
+  <%= @department.story %>
+</p>
+<%= link_to 'Reviews', department_reviews_path(@department) %>
+<%= link_to 'Videos', department_videos_path(@department) %>
+<%= link_to 'Booklists', department_booklists_path(@department) %>

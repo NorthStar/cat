@@ -1,0 +1,18 @@
+<h1>Listing Videos</h1>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Intro</th>
+    <th>link</th>
+  </tr>
+ 
+  <% @videos.each do |video| %>
+    <tr>
+      <td><%= video.id %></td>
+      <td><%= video.title %></td>
+      <td><%= video.intro %></td>
+      <td><%= link_to "Detail",department_video_path(:id =>video.id) %></td>
+    </tr>
+  <% end %>
+</table>

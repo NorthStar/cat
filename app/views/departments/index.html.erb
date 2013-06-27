@@ -1,0 +1,16 @@
+<h1>Listing departments</h1>
+ 
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Story</th>
+  </tr>
+ 
+  <% @departments.each do |department| %>
+    <tr>
+      <td><%= department.name %></td>
+      <td><%= department.story %></td>
+      <td><%= link_to 'Show', department_path(department) %></td>
+    </tr>
+  <% end %>
+</table>
