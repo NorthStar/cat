@@ -1,0 +1,13 @@
+Project Schrodinger's Cat
+==========================
+Wanmen's CMS System
+---------------------
+
+The system is based on Rails, a robustic Ruby framework. 
+Please get familiar with the Rails getting-started document before stepping into the CMS system http://guides.rubyonrails.org/getting_started.html
+
+Wanmen.org consists of several departments where each department has its own booklists（万门书单）,reviews（万门经验贴）and videos（万门视频）.
+
+Reviews
+--------
+The reviews are standard formatted markdown documents. To render the Markdown format in the browser, we utilized a ruby markdown parser named Kramdown http://kramdown.rubyforge.org. Kramdown needs to be installed in the server to make the system work
