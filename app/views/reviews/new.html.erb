@@ -1,2 +1,9 @@
+<% content_for :head do %>
+   <link rel="stylesheet" type="text/css" href="/assets/reviews/reviews.css.scss" />
+   <script type="text/javascript" src="/assets/reviews/Markdown.Converter.js"></script>
+   <script type="text/javascript" src="/assets/reviews/Markdown.Sanitizer.js">
+   </script>
+<% end %>
 <h1>New Reviews</h1>
 <%= render 'form' %>
+<script src="/assets/reviews/reviews.js" type="text/javascript"></script>
