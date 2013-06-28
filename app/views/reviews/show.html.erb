@@ -9,7 +9,7 @@
 </p>
 <p>
   <strong>Content:</strong>
-  <%= @review.content %>
+  <%=raw Kramdown::Document.new(@review.content).to_html %>
 </p>
 
 <h2>Comments</h2>

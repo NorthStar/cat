@@ -33323,3 +33323,2905 @@ Served asset /welcome.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-27 21:41:27 +0800
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-28 08:45:41 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Compiled Markdown.Converter.js  (0ms)  (pid 347)
+Compiled Markdown.Sanitizer.js  (0ms)  (pid 347)
+Compiled reviews.js  (0ms)  (pid 347)
+Compiled application.js  (13ms)  (pid 347)
+Completed 200 OK in 118ms (Views: 117.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /Markdown.Sanitizer.js - 200 OK (1ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /booklists.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /reviews.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /departments.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /Markdown.Converter.js - 200 OK (3ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /videos.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /welcome.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /comments.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /jquery.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /booklists.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /departments.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /comments.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /reviews.js - 200 OK (1ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /videos.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:42 +0800
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:47 +0800
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/departments" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Processing by DepartmentsController#index as HTML
+  [1m[36mDepartment Load (0.5ms)[0m  [1mSELECT "departments".* FROM "departments" [0m
+  Rendered departments/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 77ms (Views: 53.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:52 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:45:57 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1" for 127.0.0.1 at 2013-06-28 08:45:59 +0800
+Processing by DepartmentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mDepartment Load (0.3ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered departments/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:00 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:05 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Processing by ReviewsController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.1ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mReview Load (0.9ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."department_id" = 1
+  Rendered reviews/index.html.erb within layouts/application (63.7ms)
+Completed 200 OK in 170ms (Views: 115.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:07 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:46:12 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews/6" for 127.0.0.1 at 2013-06-28 08:46:20 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"1", "id"=>"6"}
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  Rendered reviews/show.html.erb within layouts/application (8.9ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined local variable or method `review' for #<#<Class:0x007f7fdd7cc220>:0x007f7fdf5ab1b0>):
+    9: </p>
+    10: <p>
+    11:   <strong>Content:</strong>
+    12:   <%=raw Kramdown::Document.new(review.content).to_html %>
+    13: </p>
+    14: 
+    15: <h2>Comments</h2>
+  app/views/reviews/show.html.erb:12:in `_app_views_reviews_show_html_erb__2694185365578306591_70093592416420'
+
+
+  Rendered /Users/shaohuanli/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/shaohuanli/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/shaohuanli/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/departments/1/reviews/6" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"1", "id"=>"6"}
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mComment Load (0.9ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 6[0m
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = 6 LIMIT 1
+  [1m[36mDepartment Load (0.1ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  Rendered comments/_comment.html.erb (11.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1
+  Rendered comments/_form.html.erb (10.0ms)
+  Rendered reviews/show.html.erb within layouts/application (39.4ms)
+Completed 200 OK in 98ms (Views: 95.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:13 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews/6" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"1", "id"=>"6"}
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 6
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = 6 LIMIT 1[0m
+  [1m[35mDepartment Load (0.1ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1
+  Rendered comments/_comment.html.erb (5.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  Rendered comments/_form.html.erb (2.9ms)
+  Rendered reviews/show.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:21 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews/6/edit" for 127.0.0.1 at 2013-06-28 08:47:24 +0800
+Processing by ReviewsController#edit as HTML
+  Parameters: {"department_id"=>"1", "id"=>"6"}
+Filter chain halted as #<Proc:0x007f7fdca3ce48@/Users/shaohuanli/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_controller/metal/http_authentication.rb:112> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/departments/1/reviews/6/edit" for 127.0.0.1 at 2013-06-28 08:47:24 +0800
+Processing by ReviewsController#edit as HTML
+  Parameters: {"department_id"=>"1", "id"=>"6"}
+Filter chain halted as #<Proc:0x007f7fdca3ce48@/Users/shaohuanli/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_controller/metal/http_authentication.rb:112> rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/departments/1/reviews/6/edit" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Processing by ReviewsController#edit as HTML
+  Parameters: {"department_id"=>"1", "id"=>"6"}
+  [1m[35mDepartment Load (0.1ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  Rendered reviews/_form.html.erb (3.0ms)
+  Rendered reviews/edit.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /posts.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/posts.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shaohuanli/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/shaohuanli/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/shaohuanli/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shaohuanli/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:47:32 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews/6/edit" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Processing by ReviewsController#edit as HTML
+  Parameters: {"department_id"=>"1", "id"=>"6"}
+  [1m[35mDepartment Load (0.2ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  Rendered reviews/_form.html.erb (3.1ms)
+  Rendered reviews/edit.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /reviews.js - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:49:00 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:49:05 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews/6/edit" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Processing by ReviewsController#edit as HTML
+  Parameters: {"department_id"=>"1", "id"=>"6"}
+  [1m[35mDepartment Load (0.1ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  Rendered reviews/_form.html.erb (2.2ms)
+  Rendered reviews/edit.html.erb within layouts/application (3.0ms)
+Compiled reviews.css  (8ms)  (pid 347)
+Compiled application.css  (1ms)  (pid 347)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /reviews.css - 200 OK (4ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:20 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started PUT "/departments/1/reviews/6" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Processing by ReviewsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+FeIg/saG111HuAIEY5WmkroIeipugxSKKIwcfaN7Xs=", "review"=>{"title"=>"Review1", "creator"=>"hey", "content"=>"Hey\r\n===\r\nMy love is pretty here"}, "commit"=>"Update Review", "department_id"=>"1", "id"=>"6"}
+Filter chain halted as #<Proc:0x007f7fdca3ce48@/Users/shaohuanli/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_controller/metal/http_authentication.rb:112> rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started PUT "/departments/1/reviews/6" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Processing by ReviewsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+FeIg/saG111HuAIEY5WmkroIeipugxSKKIwcfaN7Xs=", "review"=>{"title"=>"Review1", "creator"=>"hey", "content"=>"Hey\r\n===\r\nMy love is pretty here"}, "commit"=>"Update Review", "department_id"=>"1", "id"=>"6"}
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  UPDATE "reviews" SET "content" = 'Hey
+===
+My love is pretty here', "updated_at" = '2013-06-28 00:51:51.184739' WHERE "reviews"."id" = 6
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/departments/6/reviews/6
+Completed 302 Found in 12ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/departments/6/reviews/6" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"6", "id"=>"6"}
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 6[0m
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = 6 LIMIT 1
+  [1m[36mDepartment Load (0.1ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  Rendered comments/_comment.html.erb (5.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1
+  Rendered comments/_form.html.erb (3.3ms)
+  Rendered reviews/show.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:51:51 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/departments/1/reviews/6/comments/26" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Processing by CommentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+FeIg/saG111HuAIEY5WmkroIeipugxSKKIwcfaN7Xs=", "department_id"=>"1", "review_id"=>"6", "id"=>"26"}
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 6 AND "comments"."id" = ? LIMIT 1  [["id", "26"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "comments" WHERE "comments"."id" = ?  [["id", 26]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/departments/6/reviews/6
+Completed 302 Found in 5ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/departments/6/reviews/6" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"6", "id"=>"6"}
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 6[0m
+  [1m[35mReview Load (0.3ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = 6 LIMIT 1
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  Rendered comments/_comment.html.erb (4.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1
+  Rendered comments/_form.html.erb (2.6ms)
+  Rendered reviews/show.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:01 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/departments/1/reviews/6/comments/27" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Processing by CommentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+FeIg/saG111HuAIEY5WmkroIeipugxSKKIwcfaN7Xs=", "department_id"=>"1", "review_id"=>"6", "id"=>"27"}
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 6 AND "comments"."id" = ? LIMIT 1  [["id", "27"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "comments" WHERE "comments"."id" = ?  [["id", 27]]
+  [1m[36m (3.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/departments/6/reviews/6
+Completed 302 Found in 6ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/departments/6/reviews/6" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"6", "id"=>"6"}
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 6[0m
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = 6 LIMIT 1
+  [1m[36mDepartment Load (0.1ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  Rendered comments/_comment.html.erb (2.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1
+  Rendered comments/_form.html.erb (2.6ms)
+  Rendered reviews/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 38ms (Views: 35.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:04 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/departments/1/reviews/6/comments/28" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Processing by CommentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+FeIg/saG111HuAIEY5WmkroIeipugxSKKIwcfaN7Xs=", "department_id"=>"1", "review_id"=>"6", "id"=>"28"}
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 6 AND "comments"."id" = ? LIMIT 1  [["id", "28"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "comments" WHERE "comments"."id" = ?  [["id", 28]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/departments/6/reviews/6
+Completed 302 Found in 6ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/departments/6/reviews/6" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"6", "id"=>"6"}
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 6[0m
+  Rendered collection (0.0ms)
+  [1m[35mDepartment Load (0.1ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1
+  Rendered comments/_form.html.erb (2.5ms)
+  Rendered reviews/show.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:06 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/6/reviews/6" for 127.0.0.1 at 2013-06-28 08:52:07 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"6", "id"=>"6"}
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 6
+  Rendered collection (0.0ms)
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  Rendered comments/_form.html.erb (3.3ms)
+  Rendered reviews/show.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:08 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Processing by DepartmentsController#index as HTML
+  [1m[35mDepartment Load (0.2ms)[0m  SELECT "departments".* FROM "departments" 
+  Rendered departments/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:11 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:14 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments" for 127.0.0.1 at 2013-06-28 08:52:16 +0800
+Processing by DepartmentsController#index as HTML
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" [0m
+  Rendered departments/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:16 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:16 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:16 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:16 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:16 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:17 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:17 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:17 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:17 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:17 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:17 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:17 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:17 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:17 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:17 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:17 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:17 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:17 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Processing by DepartmentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mDepartment Load (0.1ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered departments/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:18 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Processing by ReviewsController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.1ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."department_id" = 1
+  Rendered reviews/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 33ms (Views: 30.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:52:20 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews/6" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"1", "id"=>"6"}
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 6
+  Rendered collection (0.0ms)
+  [1m[36mDepartment Load (0.1ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  Rendered comments/_form.html.erb (3.0ms)
+  Rendered reviews/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 93ms (Views: 92.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:53:23 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Processing by ReviewsController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[35mDepartment Load (0.2ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."department_id" = 1[0m
+  Rendered reviews/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 33ms (Views: 29.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:13 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews/6" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"1", "id"=>"6"}
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 6[0m
+  Rendered collection (0.0ms)
+  [1m[35mDepartment Load (0.1ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1
+  Rendered comments/_form.html.erb (2.7ms)
+  Rendered reviews/show.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:16 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews/6" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"1", "id"=>"6"}
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 6
+  Rendered collection (0.0ms)
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  Rendered comments/_form.html.erb (3.9ms)
+  Rendered reviews/show.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:33 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews/7" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"1", "id"=>"7"}
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1  [["id", "7"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 7[0m
+  Rendered collection (0.0ms)
+  [1m[35mDepartment Load (0.2ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1
+  Rendered comments/_form.html.erb (3.2ms)
+  Rendered reviews/show.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:38 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews/8" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"1", "id"=>"8"}
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "8"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 8
+  Rendered collection (0.0ms)
+  [1m[36mDepartment Load (0.1ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  Rendered comments/_form.html.erb (2.6ms)
+  Rendered reviews/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:41 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews/8/edit" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Processing by ReviewsController#edit as HTML
+  Parameters: {"department_id"=>"1", "id"=>"8"}
+  [1m[35mDepartment Load (0.1ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "8"]]
+  Rendered reviews/_form.html.erb (2.1ms)
+  Rendered reviews/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:54:47 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started PUT "/departments/1/reviews/8" for 127.0.0.1 at 2013-06-28 08:55:34 +0800
+Processing by ReviewsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+FeIg/saG111HuAIEY5WmkroIeipugxSKKIwcfaN7Xs=", "review"=>{"title"=>"标题", "creator"=>"啦啦啦", "content"=>"---\r\n有没有搞错"}, "commit"=>"Update Review", "department_id"=>"1", "id"=>"8"}
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1  [["id", "8"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered reviews/_form.html.erb (9.7ms)
+  Rendered reviews/edit.html.erb within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `review_path' for #<#<Class:0x007f7fdd7cc220>:0x007f7fe08a95a0>):
+    1: <%= form_for([@department,@review]) do |f| %>
+    2:   <p>
+    3:     <%= f.label :title %><br>
+    4:     <%= f.text_field :title %>
+  app/views/reviews/_form.html.erb:1:in `_app_views_reviews__form_html_erb__4121585538606313410_70093562590460'
+  app/views/reviews/edit.html.erb:3:in `_app_views_reviews_edit_html_erb__864923046141683713_70093590121940'
+  app/controllers/reviews_controller.rb:28:in `update'
+
+
+  Rendered /Users/shaohuanli/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/shaohuanli/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/shaohuanli/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.5ms)
+
+
+Started GET "/departments/1/reviews/8" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"1", "id"=>"8"}
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "8"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 8
+  Rendered collection (0.0ms)
+  [1m[36mDepartment Load (0.1ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  Rendered comments/_form.html.erb (3.6ms)
+  Rendered reviews/show.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 68ms (Views: 65.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:19 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews/8/edit" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Processing by ReviewsController#edit as HTML
+  Parameters: {"department_id"=>"1", "id"=>"8"}
+  [1m[35mDepartment Load (0.1ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "8"]]
+  Rendered reviews/_form.html.erb (3.4ms)
+  Rendered reviews/edit.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js" for 127.0.0.1 at 2013-06-28 08:57:24 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started PUT "/departments/1/reviews/8" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Processing by ReviewsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+FeIg/saG111HuAIEY5WmkroIeipugxSKKIwcfaN7Xs=", "review"=>{"title"=>"Test4", "creator"=>"test4", "content"=>"*Test*"}, "commit"=>"Update Review", "department_id"=>"1", "id"=>"8"}
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1  [["id", "8"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  UPDATE "reviews" SET "content" = '*Test*', "updated_at" = '2013-06-28 00:57:40.601852' WHERE "reviews"."id" = 8
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/departments/8/reviews/8
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/departments/8/reviews/8" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"8", "id"=>"8"}
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1  [["id", "8"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 8[0m
+  Rendered collection (0.0ms)
+  [1m[35mDepartment Load (0.1ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1
+  Rendered comments/_form.html.erb (3.2ms)
+  Rendered reviews/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:57:40 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/8/reviews/8" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"8", "id"=>"8"}
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1[0m  [["id", "8"]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 8
+  Rendered collection (0.0ms)
+  [1m[36mDepartment Load (0.1ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1[0m
+  Rendered comments/_form.html.erb (19.1ms)
+  Rendered reviews/show.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 60ms (Views: 50.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:26 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/8/reviews/8" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Processing by ReviewsController#show as HTML
+  Parameters: {"department_id"=>"8", "id"=>"8"}
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."id" = ? LIMIT 1  [["id", "8"]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."review_id" = 8[0m
+  Rendered collection (0.0ms)
+  [1m[35mDepartment Load (0.1ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = 1 LIMIT 1
+  Rendered comments/_form.html.erb (3.2ms)
+  Rendered reviews/show.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 69ms (Views: 67.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:32 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:46 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Processing by DepartmentsController#index as HTML
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" [0m
+  Rendered departments/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:48 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1" for 127.0.0.1 at 2013-06-28 08:58:51 +0800
+Processing by DepartmentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mDepartment Load (0.2ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered departments/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:51 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:51 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:51 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:52 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/reviews" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Processing by ReviewsController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.1ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."department_id" = 1
+  Rendered reviews/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 32ms (Views: 29.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /booklists.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /reviews.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Converter.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /Markdown.Converter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /departments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Markdown.Sanitizer.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /Markdown.Sanitizer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/booklists.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /booklists.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2013-06-28 08:58:54 +0800
+Served asset /reviews.js - 304 Not Modified (0ms)

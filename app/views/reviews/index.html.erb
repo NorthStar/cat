@@ -11,7 +11,7 @@
     <tr>
       <td><%= review.id %></td>
       <td><%= review.title %></td>
-      <td><%= review.content %></td>
+      <td><%=raw Kramdown::Document.new(review.content[0..29]).to_html %></td>
       <td><%= link_to "Detail",department_review_path(:id =>review.id) %></td>
     </tr>
   <% end %>

@@ -3,5 +3,5 @@ class Review < ActiveRecord::Base
   has_many :comments, dependent: :destroy
   attr_accessible :content, :creator, :title
   validates :title, presence: true,
-                    length: { minimum: 5 }
+                    length: { minimum: 1 }
 end
