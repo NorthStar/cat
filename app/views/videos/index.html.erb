@@ -1,18 +1,45 @@
-<h1>Listing Videos</h1>
-<table>
-  <tr>
-    <th>ID</th>
-    <th>Title</th>
-    <th>Intro</th>
-    <th>link</th>
-  </tr>
- 
-  <% @videos.each do |video| %>
-    <tr>
-      <td><%= video.id %></td>
-      <td><%= video.title %></td>
-      <td><%= video.intro %></td>
-      <td><%= link_to "Detail",department_video_path(:id =>video.id) %></td>
-    </tr>
-  <% end %>
-</table>
+<% content_for :head do %>
+  <link rel="stylesheet" type="text/css" href="/assets/videos/demo.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/videos/style.css" />
+  <script src="/assets/videos/modernizr.custom.97074.js"></script>
+  <noscript><link rel="stylesheet" type="text/css" href="/assets/videos/noJS.css"/></noscript>
+<% end %>
+<h1><%="万门"+@department.name+"视频" %></h1>
+<div class="banner">
+    <ul>
+        <li><center><a href="http://www.youku.com"><img src= "http://i1.w.hjfile.cn/doc/201012/Justice82453.jpg"></a></center></li>
+        <li><center><a href="http://www.youku.com"><img src= "http://news.xinhuanet.com/newmedia/2011-06/23/121576373_11n.jpg"></a></center></li>
+        <li><center><a href="http://www.youku.com"><img src="http://i2.itc.cn/20120216/9f5_29fb99b0_4df1_5673_8c40_d04c905ff4b9_1.jpg"></a></center></li>
+    </ul>
+</div>
+ <section>
+        <ul id="da-thumbs" class="da-thumbs">
+          <% @videos.each do |video| %>
+          <li>
+            <a href="<%= video.url %>">
+              <img src="<%= video.img %>" width="200px"/>
+              <div><span><%= video.title %></span></div>
+            </a>
+          </li>
+          <% end %>
+        </ul>
+ </section>
+ <script type="text/javascript" src="/assets/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/videos/jquery.hoverdir.js"></script>
+  <script src="/assets/videos/unslider.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+
+        $(' #da-thumbs > li ').each( function() { $(this).hoverdir({
+          hoverDelay : 75
+        }); } );
+        $('.banner').unslider({
+          speed: 500,               //  The speed to animate each slide (in milliseconds)
+          delay: 1000,              //  The delay between slide animations (in milliseconds)
+          complete: function() {},  //  A function that gets called after every slide animation
+          keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+          dots: true,               //  Display dot navigation
+          fluid: false              //  Support responsive design. May break non-responsive designs
+        });
+      });
+    </script>
