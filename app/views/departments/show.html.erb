@@ -3,8 +3,10 @@
    <link rel="stylesheet" type="text/css" href="/assets/welcome.css" />
 <% end %>
 <div id="sidebar">
-  <img class="onemanlogo" src="/assets/home/logopng.png"> 
-  <img class="onemanlogo" src="/assets/home/mottotext.png">
+  <img class="onemanlogo" src="<%= @department.coverUrl%>">
+  <div class="onemanlogo">
+  	万门大学<%= @department.name %>
+  </div>
   <div class='onemanlogo'>
     <ul class="navigation">
       <li><a href="/">首页</a></li>
@@ -20,7 +22,6 @@
 			<span class="parallaxbg">
 				<p><%= @department.story%></p>
 			</span>
-			<img width="300px" src="<%= @department.coverUrl%>">
 		</div>
     </div>
 </div>

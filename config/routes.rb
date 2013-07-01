@@ -8,6 +8,7 @@ Wanmen::Application.routes.draw do
     resources :videos
     resources :booklists
   end
+  resources :xes
   root :to => 'welcome#index'
   
   # The priority is based upon order of creation:
