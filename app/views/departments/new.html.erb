@@ -1,1 +1,24 @@
-<%= render 'form' %>
+<% content_for :head do %>
+   <link rel="stylesheet" type="text/css" href="/assets/departments.css" />
+   <!--link rel="stylesheet" type="text/css" href="/assets/welcome.css" /-->
+<% end %>
+<div id="sidebar">
+  <img class="onemanlogo" src="/assets/home/logopng.png"> 
+  <img class="onemanlogo" src="/assets/home/mottotext.png">
+  <div class='onemanlogo'>
+      <ul class="navigation">
+        <li>首页</li>
+        <li><a href="/departments"> 万门各院系 </a></li>
+        <li><a href="/xes">万门x项目</a></li>
+        <li>万门团队</li>
+      </ul>
+  </div>
+</div>
+<div id="content">
+	<div class = "centralFrame">
+       <h2> 创建一个新的万门大学院系 </h2>
+	</div>
+	<div class="formFrame">
+      <%= render 'form' %>
+    </div>
+</div>

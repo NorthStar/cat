@@ -1,6 +1,179 @@
 // Place all the styles related to the Departments controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/* CSS Document
+ * Based on parallax template 
+ * and Standard Han template
+ * Modified by Mimee on 1 July, 2013 
+ */
+@charset "utf-8";
+
+@font-face {
+    font-family: 'ff-han';
+    src: local("Hiragino Sans GB");
+    font-weight: normal;
+    font-style: normal;
+
+}
+a:link {
+    text-decoration: none !important;
+    color:#0066CC;
+ }
+a:active,a:hover{
+    color:white;
+}
+@font-face {
+    font-family: 'bf-han';
+    src: local(STHeiti), local(SimHei), local(STXihei);
+    unicode-range: U+4E00-9FA5;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#sidebar {
+    float:left;
+    width:22%;
+    top:0px;
+    left:0px;
+    height:100%;
+    position:fixed;
+    z-index:1;
+    opacity:0.9;
+}
+#sidebar {
+    background-image: linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+    background-image: -o-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+    background-image: -moz-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+    background-image: -webkit-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+    background-image: -ms-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        color-stop(0.37, rgb(200,229,255)),
+        color-stop(0.69, rgb(224,240,255)));
+    box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+
+.onemanlogo{
+    position:relative;
+    top:10px;
+    left:15%;
+    width:70%;
+    margin-top:0px;
+    margin-left:0px;
+    z-index:1;
+    opacity: 0.9;
+}
+
+.navigation{
+    position:absolute;
+    z-index:1;
+    top:30px;
+    width:100%;
+}
+.navigation li{
+    font-family:'ff-han';/*could be bf*/
+    color:#0066CC;
+    display:block;
+    padding: 0 10px;
+    line-height:30px;
+    margin-bottom:2px;
+    margin-right: 2px;
+    font-weight:bold;
+    -webkit-transition: all .5s ease－in－out;
+    /*border-bottom:1px solid black;*/
+    text-align: right;
+    /*width:170px;*/
+}
+.navigation li:hover,.active{
+    font-size:24pt;
+    text-align: right;
+    margin-right: 4px;
+    color:white;
+    cursor:pointer;
+    -webkit-transition: all .2s ease－in－out;
+    width:100%!important;
+}
+/**
+ * Content starts here
+ * with parallax effect
+ */
+#content {
+    margin: 0 0 0 0px;
+    position:fixed;
+    height: 100%;
+    right:0px;
+    width:78%;
+    overflow:scroll;
+    z-index: 1;
+}
+#content{
+    background-image: linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+    background-image: -o-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+    background-image: -moz-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+    background-image: -webkit-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+    background-image: -ms-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        color-stop(0.37, rgb(200,229,255)),
+        color-stop(0.69, rgb(224,240,255)));
+    box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+/**
+ * Sharing on platforms, currently not used
+ */
+/*.sharePanel{
+    position:absolute;
+    background-color: rgba(163,172,225,0.3);
+    top:0px;
+    left:80%;
+    max-width:300px;
+    z-index:1;
+    box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}*/
+/**
+ * Frame for pretty images or just central object.
+ */
+.centralFrame{
+    position:relative;
+    top:0px;
+    left: 5%;
+    width: 95%;
+    text-align: center;
+}
+
+
+/**
+ * Wrapper for content, such as lists
+ */
+.wrapper{
+    top:0px;
+    width:100%;
+    margin:0 auto;
+    position: relative;
+}
+
+/**
+ * Frame for form; very central
+ */
+.formFrame{
+    top:10%;
+    margin-left: 15%;
+    width:70%;
+    vertical-align: middle;
+    position: relative;
+}
+
 /* Place all stylesheet code here */
 ul.polaroids { width: 970px; margin: 0 0 18px -30px;}
 ul.polaroids li { display: inline; }
@@ -25,7 +198,4 @@ ul.polaroids li a:hover { -webkit-transform: scale(1.25); -moz-transform: scale(
     width:80%;
     height:80%;
     overflow:scroll;
-}
-body{
-	background-color:rgba(0,100,200,0.4);
 }

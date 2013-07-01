@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<title>class Blueprint::SemanticClassNames - Rails Application Documentation</title>
+
+<link type="text/css" media="screen" href="../rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="../index.html">Home</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>app/assets/stylesheets/blueprint-css-master/lib/blueprint/semantic_class_names.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link">Object
+  
+</nav>
+
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li><a href="#method-c-new">::new</a>
+    
+    <li><a href="#method-i-css_from_assignments">#css_from_assignments</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="../doc/README_FOR_APP.html">README_FOR_APP</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../Blueprint.html">Blueprint</a>
+  
+    <li><a href="../Blueprint/CSSParser.html">Blueprint::CSSParser</a>
+  
+    <li><a href="../Blueprint/Compressor.html">Blueprint::Compressor</a>
+  
+    <li><a href="../Blueprint/CustomLayout.html">Blueprint::CustomLayout</a>
+  
+    <li><a href="../Blueprint/GridBuilder.html">Blueprint::GridBuilder</a>
+  
+    <li><a href="../Blueprint/Namespace.html">Blueprint::Namespace</a>
+  
+    <li><a href="../Blueprint/SemanticClassNames.html">Blueprint::SemanticClassNames</a>
+  
+    <li><a href="../Blueprint/Validator.html">Blueprint::Validator</a>
+  
+    <li><a href="../DocumentElement.html">DocumentElement</a>
+  
+    <li><a href="../DocumentElement/Background.html">DocumentElement::Background</a>
+  
+    <li><a href="../DocumentElement/Dimension.html">DocumentElement::Dimension</a>
+  
+    <li><a href="../ApplicationController.html">ApplicationController</a>
+  
+    <li><a href="../ApplicationHelper.html">ApplicationHelper</a>
+  
+    <li><a href="../BlueprintApp.html">BlueprintApp</a>
+  
+    <li><a href="../BlueprintHelpers.html">BlueprintHelpers</a>
+  
+    <li><a href="../Booklist.html">Booklist</a>
+  
+    <li><a href="../BooklistsController.html">BooklistsController</a>
+  
+    <li><a href="../BooklistsHelper.html">BooklistsHelper</a>
+  
+    <li><a href="../Comment.html">Comment</a>
+  
+    <li><a href="../CommentsController.html">CommentsController</a>
+  
+    <li><a href="../CommentsHelper.html">CommentsHelper</a>
+  
+    <li><a href="../Department.html">Department</a>
+  
+    <li><a href="../DepartmentsController.html">DepartmentsController</a>
+  
+    <li><a href="../DepartmentsHelper.html">DepartmentsHelper</a>
+  
+    <li><a href="../ElementHelpers.html">ElementHelpers</a>
+  
+    <li><a href="../File.html">File</a>
+  
+    <li><a href="../NilClass.html">NilClass</a>
+  
+    <li><a href="../Review.html">Review</a>
+  
+    <li><a href="../ReviewsController.html">ReviewsController</a>
+  
+    <li><a href="../ReviewsHelper.html">ReviewsHelper</a>
+  
+    <li><a href="../String.html">String</a>
+  
+    <li><a href="../Video.html">Video</a>
+  
+    <li><a href="../VideosController.html">VideosController</a>
+  
+    <li><a href="../VideosHelper.html">VideosHelper</a>
+  
+    <li><a href="../WelcomeController.html">WelcomeController</a>
+  
+    <li><a href="../WelcomeHelper.html">WelcomeHelper</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class Blueprint::SemanticClassNames</h1>
+
+  <div id="description" class="description">
+    
+<p>parses a hash of key/value pairs, key being output CSS selectors, value
+being a list of CSS selectors to draw from</p>
+
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+    <!-- Attributes -->
+    <section id="attribute-method-details" class="method-section section">
+      <h3 class="section-header">Attributes</h3>
+
+      
+      <div id="attribute-i-class_assignments" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">class_assignments</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-namespace" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">namespace</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-source_file" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">source_file</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+    </section><!-- attribute-method-details -->
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-new" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(options = {})</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <h4 id="method-c-new-label-Options">Options</h4>
+<ul><li>
+<p><code>options</code></p>
+<ul><li>
+<p><code>:namespace</code> – <a href="Namespace.html">Namespace</a> to be used
+when matching CSS selectors to draw from</p>
+</li><li>
+<p><code>:source_file</code> – Source file to use as reference of CSS
+selectors.  Defaults to Blueprint&#39;s generated screen.css</p>
+</li><li>
+<p><code>:class_assignments</code> – Hash of key/value pairs, key being output
+CSS selectors, value being a list of CSS selectors to draw from</p>
+</li></ul>
+</li></ul>
+          
+
+          
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File app/assets/stylesheets/blueprint-css-master/lib/blueprint/semantic_class_names.rb, line 13</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">options</span> = {})
+  <span class="ruby-ivar">@namespace</span> = <span class="ruby-identifier">options</span>[<span class="ruby-value">:namespace</span>] <span class="ruby-operator">||</span> <span class="ruby-string">&quot;&quot;</span>
+  <span class="ruby-ivar">@source_file</span> = <span class="ruby-identifier">options</span>[<span class="ruby-value">:source_file</span>] <span class="ruby-operator">||</span> <span class="ruby-constant">File</span>.<span class="ruby-identifier">join</span>(<span class="ruby-constant">Blueprint</span><span class="ruby-operator">::</span><span class="ruby-constant">BLUEPRINT_ROOT_PATH</span>, <span class="ruby-string">&quot;screen.css&quot;</span>)
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">class_assignments</span> = <span class="ruby-identifier">options</span>[<span class="ruby-value">:class_assignments</span>] <span class="ruby-operator">||</span> {}
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- new-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- new-method -->
+
+    
+    </section><!-- public-class-method-details -->
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-css_from_assignments" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">css_from_assignments</span><span
+            class="method-args">(assignments = {})</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Returns a CSS string of semantic selectors and associated styles</p>
+
+<h4 id="method-i-css_from_assignments-label-Options">Options</h4>
+<ul><li>
+<p><code>assignments</code> – Hash of key/value pairs, key being output CSS
+selectors, value being a list of CSS selectors to draw from; defaults to
+what was passed in constructor or empty hash</p>
+</li></ul>
+          
+
+          
+          <div class="method-source-code" id="css_from_assignments-source">
+            <pre><span class="ruby-comment"># File app/assets/stylesheets/blueprint-css-master/lib/blueprint/semantic_class_names.rb, line 22</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">css_from_assignments</span>(<span class="ruby-identifier">assignments</span> = {})
+  <span class="ruby-identifier">assignments</span> <span class="ruby-operator">||=</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">class_assignments</span>
+
+  <span class="ruby-comment"># define a wrapper hash to hold all the new CSS assignments</span>
+  <span class="ruby-identifier">output_css</span> = {}
+
+  <span class="ruby-comment">#loads full stylesheet into an array of hashes</span>
+  <span class="ruby-identifier">blueprint_assignments</span> = <span class="ruby-constant">CSSParser</span>.<span class="ruby-identifier">new</span>(<span class="ruby-constant">File</span>.<span class="ruby-identifier">path_to_string</span>(<span class="ruby-keyword">self</span>.<span class="ruby-identifier">source_file</span>)).<span class="ruby-identifier">parse</span>
+
+  <span class="ruby-comment"># iterates through each class assignment (&#39;#footer&#39; =&gt; &#39;.span-24&#39;, &#39;#header&#39; =&gt; &#39;.span-24&#39;)</span>
+  <span class="ruby-identifier">assignments</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">semantic_class</span>, <span class="ruby-identifier">blueprint_classes</span><span class="ruby-operator">|</span>
+    <span class="ruby-comment"># gathers all BP classes we&#39;re going to be mimicing</span>
+    <span class="ruby-identifier">blueprint_classes</span> = <span class="ruby-identifier">blueprint_classes</span>.<span class="ruby-identifier">split</span>(<span class="ruby-regexp">/,|\s/</span>).<span class="ruby-identifier">select</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">c</span><span class="ruby-operator">|</span> <span class="ruby-operator">!</span><span class="ruby-identifier">c</span>.<span class="ruby-identifier">blank?</span> }.<span class="ruby-identifier">flatten</span>.<span class="ruby-identifier">map</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">c</span><span class="ruby-operator">|</span> <span class="ruby-identifier">c</span>.<span class="ruby-identifier">strip</span> }
+    <span class="ruby-identifier">classes</span> = []
+    <span class="ruby-comment"># loop through each BP class, grabbing the full hash (containing tags, index, and CSS rules)</span>
+    <span class="ruby-identifier">blueprint_classes</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">bp_class</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">match</span> = <span class="ruby-keyword">if</span> <span class="ruby-identifier">bp_class</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-string">&quot;.&quot;</span>)
+                <span class="ruby-identifier">bp_class</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-string">&quot;.&quot;</span>, <span class="ruby-node">&quot;.#{self.namespace}&quot;</span>)
+              <span class="ruby-keyword">else</span>
+                <span class="ruby-node">&quot;.#{self.namespace}#{bp_class}&quot;</span>
+              <span class="ruby-keyword">end</span>
+      <span class="ruby-identifier">classes</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">blueprint_assignments</span>.<span class="ruby-identifier">select</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">line</span><span class="ruby-operator">|</span>
+        <span class="ruby-identifier">line</span>[<span class="ruby-value">:tags</span>] <span class="ruby-operator">=~</span> <span class="ruby-constant">Regexp</span>.<span class="ruby-identifier">new</span>(<span class="ruby-node">/^([\w\.\-\:]+, ?)*#{match}(, ?[\w\.\-\:]+)*$/</span>)
+      <span class="ruby-keyword">end</span>.<span class="ruby-identifier">uniq</span>
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-comment"># clean up the array</span>
+    <span class="ruby-identifier">classes</span> = <span class="ruby-identifier">classes</span>.<span class="ruby-identifier">flatten</span>.<span class="ruby-identifier">uniq</span>
+
+    <span class="ruby-comment"># set the semantic class to the rules gathered in classes, sorted by index</span>
+    <span class="ruby-comment"># this way, the styles will be applied in the correct order from top of file to bottom</span>
+    <span class="ruby-identifier">output_css</span>[<span class="ruby-identifier">semantic_class</span>] = <span class="ruby-node">&quot;#{classes.sort_by {|i| i[:idx] }.map {|i| i[:rules] }}&quot;</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-comment"># return the css in proper format</span>
+  <span class="ruby-identifier">css</span> = <span class="ruby-string">&quot;&quot;</span>
+  <span class="ruby-identifier">output_css</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">tags</span>, <span class="ruby-identifier">rules</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">css</span> <span class="ruby-operator">+=</span> <span class="ruby-node">&quot;#{tags} {#{rules}}\n&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">css</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- css_from_assignments-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- css_from_assignments-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 3.12.2.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

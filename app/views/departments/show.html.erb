@@ -1,12 +1,41 @@
-<p>
-  <strong>Name:</strong>
-  <%= @department.name %>
-</p>
- 
-<p>
-  <strong>Story:</strong>
-  <%= @department.story %>
-</p>
-<%= link_to 'Reviews', department_reviews_path(@department) %>
-<%= link_to 'Videos', department_videos_path(@department) %>
-<%= link_to 'Booklists', department_booklists_path(@department) %>
+<% content_for :head do %>
+   <link rel="stylesheet" type="text/css" href="/assets/departments.css" />
+   <!--link rel="stylesheet" type="text/css" href="/assets/welcome.css" /-->
+<% end %>
+<div id="sidebar">
+  <img class="onemanlogo" src="/assets/home/logopng.png"> 
+  <img class="onemanlogo" src="/assets/home/mottotext.png">
+  <div class='onemanlogo'>
+      <ul class="navigation">
+        <li>首页</li>
+        <li><a href="/departments"> 万门各院系 </a></li>
+        <li><a href="/xes">万门x项目</a></li>
+        <li>万门团队</li>
+      </ul>
+  </div>
+</div>
+<div id="content">
+    <div id="leftbar">
+    	<h3>
+          <%= link_to '看看院系书单', department_booklists_path(@department) %>
+        </h3>
+        <h3>
+	      <%= link_to '看看别人写的学习经验', department_reviews_path(@department) %>
+        </h3>
+        <h3>
+          <%= link_to '在线学习，观看院系的视频', department_videos_path(@department) %>
+        </h3>
+    </div>
+
+	<div class = "centralFrame">
+       <h1> <strong>院系名称：</strong>
+         <%= @department.name %> </h2>
+	    <h2>
+        <strong>描述:</strong>
+          <%= @department.story %>
+        </h2>
+    </div>
+</div>
+
+
+

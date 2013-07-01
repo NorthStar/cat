@@ -6,7 +6,21 @@ Wanmen's CMS System
 The system is based on Rails, a robustic Ruby framework. 
 Please get familiar with the Rails getting-started document before stepping into the CMS system http://guides.rubyonrails.org/getting_started.html
 
-Wanmen.org consists of several departments where each department has its own booklists（万门书单）,reviews（万门经验贴）and videos（万门视频）.
+Wanmen.org consists of several departments where each department has its own booklists（万门书单）,reviews（万门经验贴）and videos（万门视频).
+
+
+How to boot
+-----------
+Assuming gem and rake, simply open Terminal, get to our 
+Schrodingers-Cat directory and type
+    gem install kramdown
+    bundle install
+followed by
+    rake routes
+Wait for a couple of minutes and then type
+    rails server
+Now open http://localhost:3000 in your browser to view the site.
+
 
 Reviews
 --------
