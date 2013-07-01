@@ -1,0 +1,15 @@
+// Place all the styles related to the xes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.xFrame{
+    position:relative;
+    margin-top:15%;
+    top:30%;
+    left:30%;
+    width:80%;
+    height:80%;
+    overflow:scroll;
+}
+body{
+	background-color:rgba(0,100,200,0.4);
+}

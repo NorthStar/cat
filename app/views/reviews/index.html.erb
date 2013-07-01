@@ -6,8 +6,11 @@
 <% end %>
 <header class="main-title">
       <h1><%= @department.name+"经验贴" %></h1>
-      <p><%= @department.story %></p>
-      <p><strong>Swipe或Drag去翻页，浏览器Webkit浏览器(Safari, Chrome)最佳</strong></p>
+      <ul>
+          <% @department.reviews.each do |review|%>
+          <a href="<%=department_review_path(:id =>review.id)%>"><li><p><%= review.title %></p></li></a>
+          <% end %>
+      </ul>
     </header>
     
     <div id="flip" class="container">

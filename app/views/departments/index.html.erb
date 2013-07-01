@@ -6,6 +6,7 @@
   <img class="onemanlogo" src="/assets/home/logopng.png"> 
   <img class="onemanlogo" src="/assets/home/mottotext.png">
   <div class='onemanlogo'>
+<<<<<<< HEAD
       <ul class="navigation">
         <li>首页</li>
         <li><a href="/departments"> 万门各院系 </a></li>
@@ -20,6 +21,29 @@
       <span class="parallaxbg">
         <h3>万门大学现设有41个系，任你选择</h3>
       </span>
+=======
+    <ul class="navigation">
+      <li><a href="/">首页</a></li>
+      <li><a href="/departments">万门各院系</a></li>
+      <li><a href="/xes">万门x项目</a></li>
+      <li>万门团队</li>
+    </ul>
+  </div>
+</div>
+<div id="content">
+    <div id="home">
+      <div class="departmentFrame">
+      <ul class="polaroids">
+        <% @departments.each do |department| %>
+         <li>
+            <a href="<%= department_path(department)%>" title="<%= department.name %>">
+              <img height="150px" src="<%= department.coverUrl%>" alt="<%= department.name %>" />
+            </a>
+          </li>
+        <% end %>
+      </ul>
+      </div>
+>>>>>>> b59974408198d5be4934568bac2cd0953bd4cbdd
     </div>
     <ul class="polaroids">
           <% @departments.each do |department| %>

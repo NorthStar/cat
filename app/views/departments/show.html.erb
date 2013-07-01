@@ -1,5 +1,6 @@
 <% content_for :head do %>
    <link rel="stylesheet" type="text/css" href="/assets/departments.css" />
+<<<<<<< HEAD
    <!--link rel="stylesheet" type="text/css" href="/assets/welcome.css" /-->
 <% end %>
 <div id="sidebar">
@@ -39,3 +40,30 @@
 
 
 
+=======
+   <link rel="stylesheet" type="text/css" href="/assets/welcome.css" />
+<% end %>
+<div id="sidebar">
+  <img class="onemanlogo" src="<%= @department.coverUrl%>">
+  <div class="onemanlogo">
+  	万门大学<%= @department.name %>
+  </div>
+  <div class='onemanlogo'>
+    <ul class="navigation">
+      <li><a href="/">首页</a></li>
+      <li><%= link_to @department.name+'经验贴', department_reviews_path(@department) %></li>
+      <li><%= link_to @department.name+'万门视频', department_videos_path(@department) %></li>
+      <li><%= link_to @department.name+'万门书单', department_booklists_path(@department) %></li>
+    </ul>
+  </div>
+</div>
+<div id="content">
+    <div id="home">
+    	<div class="centralFrame">
+			<span class="parallaxbg">
+				<p><%= @department.story%></p>
+			</span>
+		</div>
+    </div>
+</div>
+>>>>>>> b59974408198d5be4934568bac2cd0953bd4cbdd

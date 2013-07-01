@@ -1,0 +1,31 @@
+<% content_for :head do %>
+   <link rel="stylesheet" type="text/css" href="/assets/xes.css" />
+   <script type="text/javascript" src="/assets/maps.js"></script>
+   <link rel="stylesheet" type="text/css" href="/assets/maps.css" />
+   <link rel="stylesheet" type="text/css" href="/assets/welcome.css" />
+<% end %>
+<div id="sidebar">
+  <img class="onemanlogo" src="/assets/home/logopng.png"> 
+  <img class="onemanlogo" src="/assets/home/mottotext.png">
+  <div class='onemanlogo'>
+    <ul class="navigation">
+      <li><a href="/">首页</a></li>
+      <li><a href="/departments">万门各院系</a></li>
+      <li><a href="/xes">万门x项目</a></li>
+      <li>万门团队</li>
+    </ul>
+  </div>
+</div>
+<div id="content">
+    <div id="home">
+      <div class="xFrame">
+        <div id="map" style="width:659px;height:400px;border:#F6F6F6 solid 1px;"></div>
+        <%= javascript_tag do %>
+         loaded=false;
+         mapInit();
+         markers=<%=raw @xes.to_json %>;
+        <% end %>
+      </div>
+      <button id="loadMarkers" onClick="addMarkers()">在地图上显示</button>
+    </div>
+</div>

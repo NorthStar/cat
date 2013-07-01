@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130701043330) do
+ActiveRecord::Schema.define(:version => 20130701082913) do
 
   create_table "booklists", :force => true do |t|
     t.string   "title"
@@ -64,5 +64,15 @@ ActiveRecord::Schema.define(:version => 20130701043330) do
   end
 
   add_index "videos", ["department_id"], :name => "index_videos_on_department_id"
+
+  create_table "xes", :force => true do |t|
+    t.string   "name"
+    t.string   "lat"
+    t.string   "lnt"
+    t.text     "address"
+    t.string   "zip"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
 end

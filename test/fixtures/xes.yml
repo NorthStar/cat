@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  lat: MyString
+  lnt: MyString
+  address: MyText
+  zip: MyString
+
+two:
+  name: MyString
+  lat: MyString
+  lnt: MyString
+  address: MyText
+  zip: MyString
