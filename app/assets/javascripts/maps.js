@@ -61,7 +61,7 @@ function mapInit(){
 		mapObj.addControl(scale);
 	});
 }
-function addCustomMarker(x,y,name){
+function addCustomMarker(id,x,y,name){
 	//自定义覆盖物dom 元素
 	var m = document.createElement("div");
 	m.className = "marker";
@@ -84,7 +84,7 @@ function addCustomMarker(x,y,name){
 		m.className = "marker change";//增加样式
 	});
 	AMap.event.addListener(marker1,'click',function(){
-		window.open("http://www.baidu.com");
+		window.open('/xes/'+id);
 	});
 	
 	//mouseout,换回皮肤
@@ -99,7 +99,7 @@ function addMarkers(){
 	{
 		mapObj.setZoom(4);
 		for (var i=0;i<markers.length;i++){
-			addCustomMarker(markers[i].lat,markers[i].lnt,markers[i].name);
+			addCustomMarker(markers[i].id,markers[i].lat,markers[i].lnt,markers[i].name);
 		}
 		loaded = true;
 	}else{
