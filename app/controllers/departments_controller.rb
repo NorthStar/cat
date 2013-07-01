@@ -10,6 +10,18 @@ class DepartmentsController < ApplicationController
 		@department.save
 		redirect_to @department
     end
+    def edit
+    	@department = Department.find(params[:id])
+    end
+    def update
+    	@department = Department.find(params[:id])
+		@department.attributes = params[:department]
+		if @department.save
+			redirect_to department_path(@department)
+		else
+			render 'edit'
+		end
+    end
     def index
     	@departments= Department.all
     end

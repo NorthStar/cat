@@ -1,3 +1,150 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+/* CSS Document
+ * Based on parallax template 
+ * and Standard Han template
+ * Modified by Mimee on 14 Jun, 2013 
+ */
+@charset "utf-8";
+
+/* 漢字標準格式
+ * Standard Han Format
+ *
+ * Version: 1.2
+ * Lisence: MIT Lisence
+ * Last-Modified: 2011/12/22
+ */
+
+/* 手動設定字體 */
+/* 漢字手寫體（cursive） */
+@font-face {
+    font-family: 'ff-han';
+    src: local("Hiragino Sans GB");
+    font-weight: normal;
+    font-style: normal;
+
+}
+a:link {
+    text-decoration: none !important;
+    color:#0066CC;
+ }
+a:active,a:hover{
+    color:white;
+}
+@font-face {
+    font-family: 'bf-han';
+    src: local(STHeiti), local(SimHei), local(STXihei);
+    unicode-range: U+4E00-9FA5;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#sidebar {
+    float:left;
+    width:22%;
+    top:0px;
+    left:0px;
+    height:100%;
+    position:fixed;
+    z-index:1;
+    opacity:0.6;
+}
+#sidebar {
+    background-image: linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+    background-image: -o-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+    background-image: -moz-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+    background-image: -webkit-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+    background-image: -ms-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        color-stop(0.37, rgb(200,229,255)),
+        color-stop(0.69, rgb(224,240,255)));
+    box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+
+.onemanlogo{
+    position:relative;
+    top:10px;
+    left:15%;
+    width:70%;
+    margin-top:0px;
+    margin-left:0px;
+    z-index:1;
+    opacity: 0.9;
+}
+#navbar{
+    position:fixed;
+    top:300px;
+    width:200px;
+    height:400px;
+    z-index:99;
+}
+.navigation{
+    position:absolute;
+    z-index:1;
+    top:30px;
+    width:100%;
+}
+.navigation li{
+    font-family:'ff-han';/*could be bf*/
+    color:#0066CC;
+    display:block;
+    padding: 0 10px;
+    line-height:30px;
+    margin-bottom:2px;
+    font-weight:bold;
+    -webkit-transition: all .5s ease－in－out;
+    /*border-bottom:1px solid black;*/
+    text-align:right;
+    /*width:170px;*/
+}
+.navigation li:hover,.active{
+    font-size:24pt;
+    color:white;
+    cursor:pointer;
+    -webkit-transition: all .2s ease－in－out;
+    width:100%!important;
+}
+.centralFrame{
+    position:relative;
+    margin-top:10%;
+    top:50%;
+    left: 30%;
+    max-width: 70%;
+    max-height:50%;
+    width:60%;
+    vertical-align: middle;
+}
+ .parallaxbg{
+    font-family:'BebasRegular','ff-han';
+    position:absolute;
+    display: block;
+    text-shadow:1px 1px 0px #528ecc;
+    background-image: linear-gradient(right bottom, rgba(190,229,250,0.5) 36%, rgba(147,206,238,0.5) 71%);
+    background-image: -o-linear-gradient(right bottom, rgba(190,229,250,0.5) 36%, rgba(147,206,238,0.5) 71%);
+    background-image: -moz-linear-gradient(right bottom, rgba(190,229,250,0.5) 36%, rgba(147,206,238,0.5) 71%);
+    background-image: -webkit-linear-gradient(right bottom, rgba(190,229,250,0.5) 36%, rgba(147,206,238,0.5) 71%);
+    background-image: -ms-linear-gradient(right bottom, rgba(190,229,250,0.5) 36%, rgba(147,206,238,0.5) 71%);
+    background-image: -webkit-gradient(
+        linear,
+        right bottom,
+        left top,
+        color-stop(0.36, rgba(190,229,250,0.2)),
+        color-stop(0.71, rgba(147,206,238,0.2))
+    );
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    left:20px;
+    right:20px;
+    top:40px;
+    font-size:20px;
+    color:rgba(255,255,255,0.9);
+    z-index:1;
+    box-shadow:inset 0px 2px 2px rgba(0,0,0,0.3);
+}

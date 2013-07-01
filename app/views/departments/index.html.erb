@@ -1,16 +1,35 @@
-<h1>Listing departments</h1>
- 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Story</th>
-  </tr>
- 
-  <% @departments.each do |department| %>
-    <tr>
-      <td><%= department.name %></td>
-      <td><%= department.story %></td>
-      <td><%= link_to 'Show', department_path(department) %></td>
-    </tr>
-  <% end %>
-</table>
+<% content_for :head do %>
+   <link rel="stylesheet" type="text/css" href="/assets/departments.css" />
+   <link rel="stylesheet" type="text/css" href="/assets/welcome.css" />
+<% end %>
+<div id="sidebar">
+  <img class="onemanlogo" src="/assets/home/logopng.png"> 
+  <img class="onemanlogo" src="/assets/home/mottotext.png">
+  <div class='onemanlogo'>
+    <ul class="navigation">
+      <li data-slide="1">何为万门</li>
+      <li data-slide="2">万门各院系 </li>
+      <li data-slide="3">万门x项目</li>
+      <li data-slide="4">万门团队</li>
+    </ul>
+  </div>
+</div>
+<div id="content">
+    <div id="viewport" >
+      <div id="world" >
+      </div>
+    </div>
+    <div id="home">
+      <div class="departmentFrame">
+      <ul class="polaroids">
+        <% @departments.each do |department| %>
+         <li>
+            <a href="<%= department_path(department)%>" title="<%= department.name %>">
+              <img height="150px" src="<%= department.coverUrl%>" alt="<%= department.name %>" />
+            </a>
+          </li>
+        <% end %>
+      </ul>
+      </div>
+    </div>
+</div>
