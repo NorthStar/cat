@@ -12,6 +12,6 @@ reviews (万门经验贴) and videos (万门视频).
 
 Reviews
 --------
-The reviews are standard formatted markdown documents. 
+The reviews are made in standard markdown documents. 
 To render the Markdown format in the browser, we utilized a ruby markdown parser named Kramdown 
 (http://kramdown.rubyforge.org). Kramdown needs to be installed in the server to make the system work.
