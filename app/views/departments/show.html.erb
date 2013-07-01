@@ -1,12 +1,26 @@
-<p>
-  <strong>Name:</strong>
-  <%= @department.name %>
-</p>
- 
-<p>
-  <strong>Story:</strong>
-  <%= @department.story %>
-</p>
-<%= link_to 'Reviews', department_reviews_path(@department) %>
-<%= link_to 'Videos', department_videos_path(@department) %>
-<%= link_to 'Booklists', department_booklists_path(@department) %>
+<% content_for :head do %>
+   <link rel="stylesheet" type="text/css" href="/assets/departments.css" />
+   <link rel="stylesheet" type="text/css" href="/assets/welcome.css" />
+<% end %>
+<div id="sidebar">
+  <img class="onemanlogo" src="/assets/home/logopng.png"> 
+  <img class="onemanlogo" src="/assets/home/mottotext.png">
+  <div class='onemanlogo'>
+    <ul class="navigation">
+      <li><a href="/">首页</a></li>
+      <li><%= link_to @department.name+'经验贴', department_reviews_path(@department) %></li>
+      <li><%= link_to @department.name+'万门视频', department_videos_path(@department) %></li>
+      <li><%= link_to @department.name+'万门书单', department_booklists_path(@department) %></li>
+    </ul>
+  </div>
+</div>
+<div id="content">
+    <div id="home">
+    	<div class="centralFrame">
+			<span class="parallaxbg">
+				<p><%= @department.story%></p>
+			</span>
+			<img width="300px" src="<%= @department.coverUrl%>">
+		</div>
+    </div>
+</div>
