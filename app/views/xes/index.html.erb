@@ -17,7 +17,8 @@
   </div>
 </div>
 <div id="content">
-    <div id="home">
+      <div id="home">
+      <button id="loadMarkers" onClick="addMarkers()">在地图上显示</button>
       <div class="xFrame">
         <div id="map" style="width:659px;height:400px;border:#F6F6F6 solid 1px;"></div>
         <%= javascript_tag do %>
@@ -26,6 +27,5 @@
          markers=<%=raw @xes.to_json %>;
         <% end %>
       </div>
-      <button id="loadMarkers" onClick="addMarkers()">在地图上显示</button>
     </div>
 </div>

@@ -10,5 +10,12 @@ div.change{display:inline-block;background-image:url(http://pages.haozu.ajkcdn.c
 div.change span{background-image:url(http://pages.haozu.ajkcdn.com/20110909/img/map/marker-h-l.gif);}
 #loadMarkers{
 	position:fixed;
-	left:400px;
+	left:50%;
+	top:10%;
+	background-color: rgba(0,100,255,0.2);
+	border: none;
+	width:200px;
+	height:100px;
+	font-size: 20px;
+	color:white;
 }
