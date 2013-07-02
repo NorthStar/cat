@@ -7,7 +7,7 @@
 }
 body{
 	font-family: 'Open Sans Condensed','Arial Narrow', serif;
-	background: #ddd url(fabric_plaid.png) repeat top left;
+	background: #ddd url(/assets/reviews/fabric_plaid.png) repeat top left;
 	font-weight: 400;
 	font-size: 15px;
 	color: #333;
@@ -16,6 +16,13 @@ body{
 	font-smoothing: antialiased;
 	margin: 0;
 	overflow: hidden;
+}
+#detail-list{
+	z-index:100;
+}
+#detail-list .detail-ref{
+	color: #F86738;
+	z-index:100;
 }
 a{
 	color: #555;

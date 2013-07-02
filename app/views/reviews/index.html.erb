@@ -6,9 +6,12 @@
 <% end %>
 <header class="main-title">
       <h1><%= @department.name+"经验贴" %></h1>
-      <ul>
+      <ul id="detail-list">
           <% @department.reviews.each do |review|%>
-          <a href="<%=department_review_path(:id =>review.id)%>"><li><p><%= review.title %></p></li></a>
+          <li class="detail-li">
+            <a class="detail-ref" href="<%=department_review_path(:id =>review.id)%>"><%= review.title %>
+            </a>
+          </li>
           <% end %>
       </ul>
     </header>
