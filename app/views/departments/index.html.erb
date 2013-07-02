@@ -29,6 +29,19 @@
   </div>
 </div>
 <div id="content">
+    <div id="home">
+      <div class="departmentFrame">
+      <ul class="polaroids">
+        <% @departments.each do |department| %>
+         <li>
+            <a href="<%= department_path(department)%>" title="<%= department.name %>">
+              <img height="150px" src="<%= department.coverUrl%>" alt="<%= department.name %>" />
+            </a>
+          </li>
+        <% end %>
+      </ul>
+      </div>
+    </div>
     <ul class="polaroids">
           <% @departments.each do |department| %>
            <li>
