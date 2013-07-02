@@ -1,4 +1,5 @@
 <% content_for :head do %>
+   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
    <link rel="stylesheet" type="text/css" href="/assets/departments.css" />
    <!--link rel="stylesheet" type="text/css" href="/assets/welcome.css" /-->
 <% end %>
@@ -14,55 +15,25 @@
       </ul>
   </div>
 </div>
-<div id="content">
-    <div id="leftbar">
-    	<h3>
-          <%= link_to '看看院系书单', department_booklists_path(@department) %>
-        </h3>
-        <h3>
-	      <%= link_to '看看别人写的学习经验', department_reviews_path(@department) %>
-        </h3>
-        <h3>
-          <%= link_to '在线学习，观看院系的视频', department_videos_path(@department) %>
-        </h3>
-    </div>
-
-	<div class = "centralFrame">
-       <h1> <strong>院系名称：</strong>
-         <%= @department.name %> </h2>
-	    <h2>
+<div id="rightblock">
+  <div class = "wrapper">
+	<div class = parallaxbg>
+       <strong>院系名称：</strong>
+         <%= @department.name %> 
+	    </div>
+  <div class = "centralFrame">
         <strong>描述:</strong>
-          <%= @department.story %>
-        </h2>
-    </div>
-</div>
-
-
-
-=======
-   <link rel="stylesheet" type="text/css" href="/assets/welcome.css" />
-<% end %>
-<div id="sidebar">
-  <img class="onemanlogo" src="<%= @department.coverUrl%>">
-  <div class="onemanlogo">
-  	万门大学<%= @department.name %>
-  </div>
-  <div class='onemanlogo'>
-    <ul class="navigation">
-      <li><a href="/">首页</a></li>
-      <li><%= link_to @department.name+'经验贴', department_reviews_path(@department) %></li>
-      <li><%= link_to @department.name+'万门视频', department_videos_path(@department) %></li>
-      <li><%= link_to @department.name+'万门书单', department_booklists_path(@department) %></li>
-    </ul>
+         <div id="story"> <%= raw Kramdown::Document.new(@department.story).to_html %></div>
   </div>
 </div>
-<div id="content">
-    <div id="home">
-    	<div class="centralFrame">
-			<span class="parallaxbg">
-				<p><%= @department.story%></p>
-			</span>
-		</div>
-    </div>
+  <div class="lowbar">
+      <a class="choice" <%= link_to '看看院系书单', department_booklists_path(@department) %> 
+      </a>
+      <a class="choice" 
+        <%= link_to '阅读他人经验', department_reviews_path(@department) %>
+      </a>
+      <a class="choice" 
+          <%= link_to '观看院系视频', department_videos_path(@department) %>
+      </a>
+  </div>
 </div>
->>>>>>> b59974408198d5be4934568bac2cd0953bd4cbdd

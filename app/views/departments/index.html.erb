@@ -1,4 +1,5 @@
 <% content_for :head do %>
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
    <link rel="stylesheet" type="text/css" href="/assets/departments.css" />
    <!--link rel="stylesheet" type="text/css" href="/assets/welcome.css" /-->
 <% end %>
@@ -14,24 +15,14 @@
       </ul>
   </div>
 </div>
-<div id="content">
+<div id="rightblock">
   <div class="wrapper">
-    <div class="centralFrame">
       <span class="parallaxbg">
         <h3>万门大学现设有41个系，任你选择</h3>
       </span>
-    <ul class="navigation">
-      <li><a href="/">首页</a></li>
-      <li><a href="/departments">万门各院系</a></li>
-      <li><a href="/xes">万门x项目</a></li>
-      <li>万门团队</li>
-    </ul>
   </div>
-</div>
-<div id="content">
-    <div id="home">
-      <div class="departmentFrame">
-      <ul class="polaroids">
+  <div class="centralFrame">
+    <ul class="polaroids">
         <% @departments.each do |department| %>
          <li>
             <a href="<%= department_path(department)%>" title="<%= department.name %>">
@@ -40,17 +31,7 @@
           </li>
         <% end %>
       </ul>
-      </div>
-    </div>
-    <ul class="polaroids">
-          <% @departments.each do |department| %>
-           <li>
-              <a href="<%= department_path(department)%>"   title="<%= department.name %>">
-                <img height="160px" width="130px" src="<%= department.  coverUrl%>" alt="<%= department.name %>" />
-              </a>
-            </li>
-          <% end %>
-    </ul>
   </div>
 </div>
+
 
