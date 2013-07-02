@@ -1,6 +1,31 @@
 <% content_for :head do %>
    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
    <link rel="stylesheet" type="text/css" href="/assets/departments.css" />
+<<<<<<< HEAD
+<% end %>
+<div id="sidebar">
+  <img class="onemanlogo" src="<%= @department.coverUrl%>">
+  <div class="onemanlogo">
+    万门大学<%= @department.name %>
+  </div>
+  <div class='onemanlogo'>
+    <ul class="navigation">
+      <li><a href="/">首页</a></li>
+      <li><%= link_to @department.name+'经验贴', department_reviews_path(@department) %></li>
+      <li><%= link_to @department.name+'视频', department_videos_path(@department) %></li>
+      <li><%= link_to @department.name+'书单', department_booklists_path(@department) %></li>
+    </ul>
+  </div>
+</div>
+<div id="content">
+    <div id="home">
+      <div class="centralFrame">
+      <span class="parallaxbg">
+        <p><%= @department.story%></p>
+      </span>
+    </div>
+    </div>
+=======
    <!--link rel="stylesheet" type="text/css" href="/assets/welcome.css" /-->
 <% end %>
 <div id="sidebar">
@@ -36,21 +61,5 @@
           <%= link_to '观看院系视频', department_videos_path(@department) %>
       </a>
   </div>
-  <div class='onemanlogo'>
-    <ul class="navigation">
-      <li><a href="/">首页</a></li>
-      <li><%= link_to @department.name+'经验贴', department_reviews_path(@department) %></li>
-      <li><%= link_to @department.name+'视频', department_videos_path(@department) %></li>
-      <li><%= link_to @department.name+'书单', department_booklists_path(@department) %></li>
-    </ul>
-  </div>
-</div>
-<div id="content">
-    <div id="home">
-      <div class="centralFrame">
-      <span class="parallaxbg">
-        <p><%= @department.story%></p>
-      </span>
-    </div>
-    </div>
+>>>>>>> ea13c7b7aaa97ed2c0878b9124ab77f6912dbd4e
 </div>

@@ -105,7 +105,8 @@ a:active,a:hover{
  * Content starts here
  * with parallax effect
  */
-#content {
+#rightblock {
+    float: right;
     margin: 0 0 0 0px;
     position:fixed;
     height: 100%;
@@ -114,7 +115,7 @@ a:active,a:hover{
     overflow:scroll;
     z-index: 1;
 }
-#content{
+#rightblock{
     background-image: linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
     background-image: -o-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
     background-image: -moz-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
@@ -146,20 +147,47 @@ a:active,a:hover{
  */
 .centralFrame{
     position:relative;
-    top:0px;
-    left: 5%;
-    width: 95%;
+    top:15px;
+    left: 0px;
+    width: 100%;
     text-align: center;
+    overflow: scroll;
 }
 
 
+.parallaxbg{
+    position:absolute;
+    display: block;
+    text-shadow:1px 1px 0px #528ecc;
+    /*background-image: linear-gradient(right bottom, rgba(190,229,250,0.5) 36%, rgba(147,206,238,0.5) 71%);
+    background-image: -o-linear-gradient(right bottom, rgba(190,229,250,0.5) 36%, rgba(147,206,238,0.5) 71%);
+    background-image: -moz-linear-gradient(right bottom, rgba(190,229,250,0.5) 36%, rgba(147,206,238,0.5) 71%);
+    background-image: -webkit-linear-gradient(right bottom, rgba(190,229,250,0.5) 36%, rgba(147,206,238,0.5) 71%);
+    background-image: -ms-linear-gradient(right bottom, rgba(190,229,250,0.5) 36%, rgba(147,206,238,0.5) 71%);
+    background-image: -webkit-gradient(
+        linear,
+        right bottom,
+        left top,
+        color-stop(0.36, rgba(190,229,250,0.5)),
+        color-stop(0.71, rgba(147,206,238,0.5))
+    );*/
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    left:20px;
+    right:20px;
+    top:0px;
+    font-size:20px;
+    color:rgba(0,86,161,0.9);
+    z-index:1;
+}
 /**
  * Wrapper for content, such as lists
  */
 .wrapper{
-    top:0px;
+    top:0;
     width:100%;
-    margin:0 auto;
+    margin:0 0 0px;
     position: relative;
 }
 
@@ -173,6 +201,87 @@ a:active,a:hover{
     vertical-align: middle;
     position: relative;
 }
+/**
+ * Fixed lower bar
+ */
+ .lowbar{
+    z-index: 1;
+    vertical-align: middle;
+    bottom: 0px;
+    right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    display: block;
+
+    /*background-color: rgba(0,0,0,0.2);
+    box-shadow:inset 0px 2px 2px rgba(0,0,0,0.1);*/
+ }
+
+
+/**
+ * \brief Choices
+ * \details Just in case we need buttons for content
+ * \remarks Currently hidden due to restyling.
+ */
+.choice {
+    -moz-box-shadow:inset -32px 16px 46px -34px #bbdaf7;
+    -webkit-box-shadow:inset -32px 16px 46px -34px #bbdaf7;
+    box-shadow:inset -32px 16px 46px -34px #bbdaf7;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+    background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+    background-color:#79bbff;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:3px solid #88b1db;
+    display:inline-block;
+    color:#ffffff;
+    font-family:"ff-han";
+    font-size:32px;
+    font-weight:normal;
+    padding:11px 5px;
+    text-decoration:none;
+    text-shadow:2px 3px 0px #528ecc;
+    background-opacity:0.2;
+    z-index: 2;
+}.choice:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+    background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+    background-color:#378de5;
+}.choice:active {
+    position:relative;
+    top:1px;
+}
+ /**
+  * Every item displayed horizontally
+  */
+.lowbar.choice:first-child{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 100px;
+    left: 10%;
+    padding-bottom: 20px;
+ }
+ .lowbar.choice:nth-child(2){
+    position: absolute;
+    padding-top: 20px;
+    left: 39%;
+    padding-bottom: 20px;
+    padding-left: 100px;
+ }
+ .lowbar.choice:nth-child(3){
+    position: absolute;
+    right:5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 300px;
+}
+/**
+ * end of buttons 
+ */
 
 /* Place all stylesheet code here */
 ul.polaroids { width: 970px; margin: 0 0 18px -30px;}

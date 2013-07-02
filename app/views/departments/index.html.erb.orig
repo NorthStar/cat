@@ -21,6 +21,19 @@
         <h3>万门大学现设有41个系，任你选择</h3>
       </span>
   </div>
+<<<<<<< HEAD
+</div>
+<div id="content">
+    <ul class="polaroids">
+          <% @departments.each do |department| %>
+           <li>
+              <a href="<%= department_path(department)%>"   title="<%= department.name %>">
+                <img height="160px" width="130px" src="<%= department.  coverUrl%>" alt="<%= department.name %>" />
+              </a>
+            </li>
+          <% end %>
+    </ul>
+=======
   <div class="centralFrame">
     <ul class="polaroids">
         <% @departments.each do |department| %>
@@ -31,6 +44,7 @@
           </li>
         <% end %>
       </ul>
+>>>>>>> ea13c7b7aaa97ed2c0878b9124ab77f6912dbd4e
   </div>
 </div>
 

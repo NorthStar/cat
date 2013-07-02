@@ -1,22 +1,22 @@
 <% content_for :head do %>
-   <link rel="stylesheet" type="text/css" href="/assets/xs.css" />
-   <link rel="stylesheet" type="text/css" href="/assets/welcome.css" />
+   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
+   <link rel="stylesheet" type="text/css" href="/assets/departments.css" />
 <% end %>
+
 <div id="sidebar">
-  <div class="onemanlogo">
-  	万门大学<%= @x.name %>
-  </div>
+  <img class="onemanlogo" src="/assets/home/logopng.png"> 
+  <img class="onemanlogo" src="/assets/home/mottotext.png">
   <div class='onemanlogo'>
-    <ul class="navigation">
-      <li><a href="/">首页</a></li>
-    </ul>
+      <ul class="navigation">
+        <li>首页</li>
+        <li><a href="/departments"> 万门各院系 </a></li>
+        <li><a href="/xes">万门x项目</a></li>
+        <li>万门团队</li>
+      </ul>
   </div>
 </div>
-<div id="content">
-    <div id="home">
-    	<div class="centralFrame">
-			<span class="parallaxbg">
-			</span>
-		</div>
-    </div>
+
+<div id="rightblock">
+  <!--万门大学<%= @x.name %>-->
 </div>
+
