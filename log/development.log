@@ -1986,3 +1986,1434 @@ Processing by BooklistsController#index as HTML
   [1m[36mBooklist Load (0.2ms)[0m  [1mSELECT "booklists".* FROM "booklists" WHERE "booklists"."department_id" = 5[0m
   Rendered booklists/index.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 9ms (Views: 4.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/departments" for 127.0.0.1 at 2013-07-02 03:36:22 -0700
+Processing by DepartmentsController#index as HTML
+  [1m[35mDepartment Load (0.3ms)[0m  SELECT "departments".* FROM "departments" 
+  Rendered departments/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home/logopng.png" for 127.0.0.1 at 2013-07-02 03:36:22 -0700
+Served asset /home/logopng.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/departments.css" for 127.0.0.1 at 2013-07-02 03:36:22 -0700
+Served asset /departments.css - 200 OK (0ms)
+
+
+Started GET "/assets/home/mottotext.png" for 127.0.0.1 at 2013-07-02 03:36:22 -0700
+Served asset /home/mottotext.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/new" for 127.0.0.1 at 2013-07-02 03:36:36 -0700
+Processing by DepartmentsController#new as HTML
+  Rendered departments/_form.html.erb (85.3ms)
+  Rendered departments/new.html.erb within layouts/application (92.6ms)
+Completed 200 OK in 97ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home/mottotext.png" for 127.0.0.1 at 2013-07-02 03:36:36 -0700
+Served asset /home/mottotext.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home/logopng.png" for 127.0.0.1 at 2013-07-02 03:36:36 -0700
+Served asset /home/logopng.png - 304 Not Modified (1ms)
+
+
+Started GET "/departments/5/" for 127.0.0.1 at 2013-07-02 03:36:44 -0700
+Processing by DepartmentsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered departments/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home/logopng.png" for 127.0.0.1 at 2013-07-02 03:36:44 -0700
+Served asset /home/logopng.png - 304 Not Modified (1ms)
+
+
+Started GET "/departments/5/new" for 127.0.0.1 at 2013-07-02 03:36:47 -0700
+
+ActionController::RoutingError (No route matches [GET] "/departments/5/new"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/departments" for 127.0.0.1 at 2013-07-02 03:37:23 -0700
+Processing by DepartmentsController#index as HTML
+  [1m[35mDepartment Load (0.4ms)[0m  SELECT "departments".* FROM "departments" 
+  Rendered departments/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/home/logopng.png" for 127.0.0.1 at 2013-07-02 03:37:23 -0700
+Served asset /home/logopng.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home/mottotext.png" for 127.0.0.1 at 2013-07-02 03:37:23 -0700
+Served asset /home/mottotext.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/departments.css" for 127.0.0.1 at 2013-07-02 03:37:23 -0700
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/departments/5" for 127.0.0.1 at 2013-07-02 03:37:29 -0700
+Processing by DepartmentsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered departments/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home/logopng.png" for 127.0.0.1 at 2013-07-02 03:37:29 -0700
+Served asset /home/logopng.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/departments.css" for 127.0.0.1 at 2013-07-02 03:37:29 -0700
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/departments/5/reviews" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Processing by ReviewsController#index as HTML
+  Parameters: {"department_id"=>"5"}
+  [1m[35mDepartment Load (0.2ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."department_id" = 5[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."department_id" = 5
+  Rendered reviews/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 10ms (Views: 5.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/modernizr.custom.08464.js" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/modernizr.custom.08464.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/reviews/style.css" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/demo.css" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/fabric_plaid.png" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/fabric_plaid.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/jquery.touchSwipe-1.2.5.js" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/jquery.touchSwipe-1.2.5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/jquery.tmpl.min.js" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/jquery.tmpl.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/jquery.flips.js" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/jquery.flips.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/jquery.history.js" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/jquery.history.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/core.string.js" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/core.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/jquery.tmpl.min.js" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/jquery.tmpl.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/jquery.history.js" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/jquery.history.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/core.string.js" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/core.string.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/jquery.touchSwipe-1.2.5.js" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/jquery.touchSwipe-1.2.5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/jquery.flips.js" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/jquery.flips.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reviews/cover.jpg" for 127.0.0.1 at 2013-07-02 03:37:31 -0700
+Served asset /reviews/cover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/departments/5/booklists" for 127.0.0.1 at 2013-07-02 03:37:37 -0700
+Processing by BooklistsController#index as HTML
+  Parameters: {"department_id"=>"5"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  [1m[35mBooklist Load (0.3ms)[0m  SELECT "booklists".* FROM "booklists" WHERE "booklists"."department_id" = 5
+  Rendered booklists/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 9.1ms | ActiveRecord: 0.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/departments/5/booklists" for 127.0.0.1 at 2013-07-02 04:25:19 -0700
+Processing by BooklistsController#index as HTML
+  Parameters: {"department_id"=>"5"}
+  [1m[36mDepartment Load (1.0ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  [1m[35mBooklist Load (0.2ms)[0m  SELECT "booklists".* FROM "booklists" WHERE "booklists"."department_id" = 5
+  Rendered booklists/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 149ms (Views: 16.2ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/departments/" for 127.0.0.1 at 2013-07-02 04:25:24 -0700
+Processing by DepartmentsController#index as HTML
+  [1m[36mDepartment Load (0.3ms)[0m  [1mSELECT "departments".* FROM "departments" [0m
+  Rendered departments/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/departments.css" for 127.0.0.1 at 2013-07-02 04:25:24 -0700
+Served asset /departments.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/home/mottotext.png" for 127.0.0.1 at 2013-07-02 04:25:24 -0700
+Served asset /home/mottotext.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home/logopng.png" for 127.0.0.1 at 2013-07-02 04:25:24 -0700
+Served asset /home/logopng.png - 304 Not Modified (7ms)
+
+
+Started GET "/departments/2" for 127.0.0.1 at 2013-07-02 04:25:26 -0700
+Processing by DepartmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mDepartment Load (0.2ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered departments/show.html.erb within layouts/application (170.2ms)
+Completed 200 OK in 177ms (Views: 173.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/departments.css" for 127.0.0.1 at 2013-07-02 04:25:26 -0700
+Served asset /departments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home/logopng.png" for 127.0.0.1 at 2013-07-02 04:25:26 -0700
+Served asset /home/logopng.png - 304 Not Modified (1ms)
+
+
+Started GET "/departments/2/videos" for 127.0.0.1 at 2013-07-02 04:25:28 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"2"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 2
+  Rendered videos/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 4.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:25:28 -0700
+Served asset /videos/style.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:25:28 -0700
+Served asset /jquery.min.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:25:28 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:25:28 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:25:28 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/videos/nojs.css" for 127.0.0.1 at 2013-07-02 04:25:28 -0700
+Served asset /videos/nojs.css - 404 Not Found (21ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/videos/nojs.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 04:25:56 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 85ms (Views: 3.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/videos/nojs.css" for 127.0.0.1 at 2013-07-02 04:25:56 -0700
+Served asset /videos/nojs.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/videos/nojs.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (7.3ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:25:56 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:25:56 -0700
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:25:56 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:25:56 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:25:56 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/2/videos" for 127.0.0.1 at 2013-07-02 04:26:54 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"2"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 2
+  Rendered videos/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 3.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:26:54 -0700
+Served asset /videos/style.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:26:54 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:26:54 -0700
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:26:54 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:26:54 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/nojs.css" for 127.0.0.1 at 2013-07-02 04:26:54 -0700
+Served asset /videos/nojs.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/videos/nojs.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 04:27:00 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.4ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 11.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/videos/nojs.css" for 127.0.0.1 at 2013-07-02 04:27:00 -0700
+Served asset /videos/nojs.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/videos/nojs.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:27:00 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:27:00 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:27:00 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:27:00 -0700
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:27:00 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/2/videos" for 127.0.0.1 at 2013-07-02 04:28:52 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"2"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 2
+  Rendered videos/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/videos/nojs.css" for 127.0.0.1 at 2013-07-02 04:28:52 -0700
+Served asset /videos/nojs.css - 404 Not Found (16ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/videos/nojs.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:28:52 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:28:52 -0700
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:28:52 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:28:52 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:28:52 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/departments/2/videos" for 127.0.0.1 at 2013-07-02 04:33:30 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"2"}
+  [1m[36mDepartment Load (0.6ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 2
+  Rendered videos/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 14ms (Views: 6.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:33:31 -0700
+Compiled videos/style.css  (0ms)  (pid 2529)
+Served asset /videos/style.css - 200 OK (14ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:33:31 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:33:31 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:33:31 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:33:31 -0700
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 04:33:31 -0700
+Served asset /videos/demo.css - 304 Not Modified (85ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 04:33:31 -0700
+Served asset /videos/bg.png - 304 Not Modified (3ms)
+
+
+Started GET "/departments/2/videos" for 127.0.0.1 at 2013-07-02 04:35:27 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"2"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mVideo Load (0.6ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 2
+  Rendered videos/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 10ms (Views: 5.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 04:35:27 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:35:27 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:35:28 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:35:28 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:35:28 -0700
+Compiled videos/style.css  (0ms)  (pid 2529)
+Served asset /videos/style.css - 200 OK (15ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:35:28 -0700
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 04:35:28 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 04:35:33 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 7.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:35:33 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:35:33 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:35:33 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 04:35:33 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:35:33 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:35:33 -0700
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 04:35:33 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/2/videos" for 127.0.0.1 at 2013-07-02 04:38:40 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"2"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 2
+  Rendered videos/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 11ms (Views: 4.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:38:40 -0700
+Compiled videos/style.css  (0ms)  (pid 2529)
+Served asset /videos/style.css - 200 OK (20ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:38:40 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:38:40 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:38:40 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:38:40 -0700
+Served asset /jquery.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 04:38:40 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 04:38:40 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 04:38:44 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 4.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:38:44 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:38:44 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:38:44 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:38:44 -0700
+Served asset /jquery.min.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:38:44 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 04:38:44 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 04:38:44 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 04:39:29 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.4ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 3.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:39:29 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:39:29 -0700
+Served asset /jquery.min.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:39:29 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:39:29 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:39:29 -0700
+Compiled videos/style.css  (0ms)  (pid 2529)
+Served asset /videos/style.css - 200 OK (95ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 04:39:29 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 04:39:29 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 04:40:15 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:40:15 -0700
+Compiled videos/style.css  (0ms)  (pid 2529)
+Served asset /videos/style.css - 200 OK (15ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:40:15 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:40:15 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 04:40:15 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:40:15 -0700
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:40:15 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 04:40:15 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 04:40:49 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 3.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:40:49 -0700
+Compiled videos/style.css  (0ms)  (pid 2529)
+Served asset /videos/style.css - 200 OK (19ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:40:49 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:40:49 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:40:49 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:40:49 -0700
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 04:40:49 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 04:40:49 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 04:41:48 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.6ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 11ms (Views: 4.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 04:41:48 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:41:48 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:41:48 -0700
+Compiled videos/style.css  (0ms)  (pid 2529)
+Served asset /videos/style.css - 200 OK (11ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:41:48 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:41:48 -0700
+Served asset /jquery.min.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:41:48 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 04:41:48 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments" for 127.0.0.1 at 2013-07-02 04:41:58 -0700
+Processing by DepartmentsController#index as HTML
+  [1m[36mDepartment Load (0.3ms)[0m  [1mSELECT "departments".* FROM "departments" [0m
+  Rendered departments/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/departments.css" for 127.0.0.1 at 2013-07-02 04:41:58 -0700
+Served asset /departments.css - 200 OK (0ms)
+
+
+Started GET "/assets/home/logopng.png" for 127.0.0.1 at 2013-07-02 04:41:58 -0700
+Served asset /home/logopng.png - 200 OK (1ms)
+
+
+Started GET "/assets/home/mottotext.png" for 127.0.0.1 at 2013-07-02 04:41:58 -0700
+Served asset /home/mottotext.png - 200 OK (0ms)
+
+
+Started GET "/departments/1" for 127.0.0.1 at 2013-07-02 04:42:01 -0700
+Processing by DepartmentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mDepartment Load (0.2ms)[0m  SELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered departments/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 04:42:03 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 04:42:03 -0700
+Served asset /videos/demo.css - 200 OK (0ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:42:03 -0700
+Served asset /videos/style.css - 200 OK (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:42:03 -0700
+Served asset /videos/modernizr.custom.97074.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:42:03 -0700
+Served asset /jquery.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:42:03 -0700
+Served asset /videos/unslider.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 04:42:03 -0700
+Served asset /videos/bg.png - 200 OK (4ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:42:03 -0700
+Served asset /videos/jquery.hoverdir.js - 200 OK (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 04:59:38 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 10ms (Views: 5.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 04:59:38 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 04:59:38 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js" for 127.0.0.1 at 2013-07-02 04:59:38 -0700
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 04:59:38 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/jquery.hoverdir.js" for 127.0.0.1 at 2013-07-02 04:59:38 -0700
+Served asset /videos/jquery.hoverdir.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/unslider.min.js" for 127.0.0.1 at 2013-07-02 04:59:38 -0700
+Served asset /videos/unslider.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 04:59:38 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 05:01:44 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 8ms (Views: 4.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 05:01:44 -0700
+Served asset /videos/demo.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 05:01:44 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 05:01:44 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 05:01:44 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 05:02:13 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.4ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 30ms (Views: 10.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 05:02:13 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 05:02:13 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 05:02:13 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 05:02:13 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 05:02:15 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 05:02:15 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 05:02:15 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 05:02:15 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 05:02:41 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 9ms (Views: 4.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 05:02:41 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 05:02:41 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 05:02:41 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 05:02:41 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 05:04:49 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.3ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 77ms (Views: 5.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 05:04:50 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 05:04:50 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 05:04:50 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 05:04:50 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 05:05:23 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 4.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 05:05:23 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 05:05:23 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 05:05:23 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 05:05:23 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 05:07:20 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 16ms (Views: 10.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 05:07:20 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 05:07:20 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 05:07:20 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 05:07:20 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 05:39:16 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/stylesheets/blueprint-css-master/blueprint/src/screen.css" for 127.0.0.1 at 2013-07-02 05:39:16 -0700
+Served asset /stylesheets/blueprint-css-master/blueprint/src/screen.css - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/blueprint-css-master/blueprint/src/screen.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/assets/stylesheets/blueprint-css-master/blueprint/src/print.css" for 127.0.0.1 at 2013-07-02 05:39:16 -0700
+Served asset /stylesheets/blueprint-css-master/blueprint/src/print.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/blueprint-css-master/blueprint/src/print.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 05:40:03 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 4.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/videos/modernizr.custom.97074.js" for 127.0.0.1 at 2013-07-02 05:40:04 -0700
+Served asset /videos/modernizr.custom.97074.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/videos/demo.css" for 127.0.0.1 at 2013-07-02 05:40:04 -0700
+Served asset /videos/demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/blueprint-css-master/blueprint/src/screen.css" for 127.0.0.1 at 2013-07-02 05:40:04 -0700
+Served asset /stylesheets/blueprint-css-master/blueprint/src/screen.css - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/blueprint-css-master/blueprint/src/screen.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 05:40:04 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/blueprint-css-master/blueprint/src/print.css" for 127.0.0.1 at 2013-07-02 05:40:04 -0700
+Served asset /stylesheets/blueprint-css-master/blueprint/src/print.css - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/blueprint-css-master/blueprint/src/print.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/assets/videos/bg.png" for 127.0.0.1 at 2013-07-02 05:40:04 -0700
+Served asset /videos/bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 05:41:01 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 11ms (Views: 4.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 05:41:01 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/blueprint-css-master/blueprint/src/screen.css" for 127.0.0.1 at 2013-07-02 05:41:01 -0700
+Served asset /stylesheets/blueprint-css-master/blueprint/src/screen.css - 404 Not Found (25ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/blueprint-css-master/blueprint/src/screen.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/assets/stylesheets/blueprint-css-master/blueprint/src/print.css" for 127.0.0.1 at 2013-07-02 05:41:01 -0700
+Served asset /stylesheets/blueprint-css-master/blueprint/src/print.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/blueprint-css-master/blueprint/src/print.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (71.1ms)
+
+
+Started GET "/departments/1/videos" for 127.0.0.1 at 2013-07-02 05:42:36 -0700
+Processing by VideosController#index as HTML
+  Parameters: {"department_id"=>"1"}
+  [1m[36mDepartment Load (0.2ms)[0m  [1mSELECT "departments".* FROM "departments" WHERE "departments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."department_id" = 1
+  Rendered videos/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 11ms (Views: 4.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/stylesheets/blueprint-css-master/blueprint/src/print.css" for 127.0.0.1 at 2013-07-02 05:42:36 -0700
+Served asset /stylesheets/blueprint-css-master/blueprint/src/print.css - 404 Not Found (14ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/blueprint-css-master/blueprint/src/print.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/videos/style.css" for 127.0.0.1 at 2013-07-02 05:42:36 -0700
+Served asset /videos/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/blueprint-css-master/blueprint/src/screen.css" for 127.0.0.1 at 2013-07-02 05:42:36 -0700
+Served asset /stylesheets/blueprint-css-master/blueprint/src/screen.css - 404 Not Found (92ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/blueprint-css-master/blueprint/src/screen.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/xinleixu/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/xinleixu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
