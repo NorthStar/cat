@@ -25,6 +25,7 @@ a:link {
  }
 a:active,a:hover{
     color:white;
+
 }
 @font-face {
     font-family: 'bf-han';
@@ -97,6 +98,7 @@ a:active,a:hover{
     text-align: right;
     margin-right: 4px;
     color:white;
+    text-shadow:1px 1px 0px #528ecc;
     cursor:pointer;
     -webkit-transition: all .2s ease－in－out;
     width:100%!important;
@@ -244,7 +246,6 @@ a:active,a:hover{
     padding:11px 5px;
     text-decoration:none;
     text-shadow:2px 3px 0px #528ecc;
-    background-opacity:0.2;
     z-index: 2;
 }.choice:hover {
     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
