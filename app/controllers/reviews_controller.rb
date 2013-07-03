@@ -23,7 +23,7 @@ class ReviewsController < ApplicationController
 		@review = Review.find(params[:id])
 		@review.attributes = params[:review]
 		if @review.save
-			redirect_to department_review_path(@review)
+			redirect_to :back
 		else
 			render 'edit'
 		end

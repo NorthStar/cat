@@ -9,5 +9,5 @@
 
 <p>
   <strong>Intro:</strong>
-  <%= @booklist.intro %>
+  <%=raw Kramdown::Document.new(@booklist.intro).to_html %>
 </p>
