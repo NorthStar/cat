@@ -21,7 +21,7 @@ class BooklistsController < ApplicationController
 		@booklist = Booklist.find(params[:id])
 		@booklist.attributes = params[:booklist]
 		if @booklist.save
-			redirect_to department_booklist_path(@booklist)
+			redirect_to :back
 		else
 			render 'edit'
 		end

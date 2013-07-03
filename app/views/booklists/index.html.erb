@@ -1,18 +1,43 @@
-<h1>Listing Booklists</h1>
-<table>
-  <tr>
-    <th>ID</th>
-    <th>Title</th>
-    <th>Intro</th>
-    <th>link</th>
-  </tr>
- 
-  <% @booklists.each do |booklist| %>
-    <tr>
-      <td><%= booklist.id %></td>
-      <td><%= booklist.title %></td>
-      <td><%= booklist.intro %></td>
-      <td><%= link_to "Detail",department_booklist_path(:id =>booklist.id) %></td>
-    </tr>
+<% content_for :head do %>
+<link rel="stylesheet" type="text/css" media="screen" href="/assets/booklists/liquid-slider.css">
+<script src="/assets/jquery.min.js"></script>
+<script src="/assets/booklists/jquery.easing.1.3.js"></script>
+<script src="/assets/booklists/jquery.touchSwipe.min.js"></script>
+<script src="/assets/booklists/jquery.liquid-slider.min.js"></script>
+<% end %>
+<div class="liquid-slider"  id="slider-id">
+   <% @booklists.each do |booklist| %>
+    <div>
+      <h2 class="title"><%= booklist.title %></h2>
+      <p><%=raw Kramdown::Document.new(booklist.intro).to_html%></p>
+    </div>
   <% end %>
-</table>
+</div>
+<script>
+$(function(){
+
+  /* Here is the slider using default settings */
+  $('#slider-id').liquidSlider();
+
+
+  /* If you want to adjust the settings, you set an option
+     as follows:
+
+      $('#slider-id').liquidSlider({
+        autoSlide:false,
+        autoHeight:false
+      });
+
+     Find more options at http://liquidslider.kevinbatdorf.com/
+  */
+
+  /* If you need to access the internal property or methods, use this:
+
+  var sliderObject = $.data( $('#slider-id')[0], 'liquidSlider');
+  console.log(sliderObject);
+
+  */
+
+
+});
+</script> 
