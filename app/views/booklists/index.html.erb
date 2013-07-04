@@ -1,17 +1,34 @@
 <% content_for :head do %>
 <link rel="stylesheet" type="text/css" media="screen" href="/assets/booklists/liquid-slider.css">
+<link rel="stylesheet" type="text/css" href="/assets/departments.css" />
 <script src="/assets/jquery.min.js"></script>
 <script src="/assets/booklists/jquery.easing.1.3.js"></script>
 <script src="/assets/booklists/jquery.touchSwipe.min.js"></script>
 <script src="/assets/booklists/jquery.liquid-slider.min.js"></script>
 <% end %>
-<div class="liquid-slider"  id="slider-id">
-   <% @booklists.each do |booklist| %>
-    <div>
-      <h2 class="title"><%= booklist.title %></h2>
-      <p><%=raw Kramdown::Document.new(booklist.intro).to_html%></p>
+<div id="sidebar">
+   <a href="<%= department_path(@department)%>"><img class="roundLogo onemanlogo" src="<%= @department.coverUrl %>" width="150px"></a><br>
+  <!--img class="onemanlogo" src="/assets/home/mottotext.png"-->
+  <div class='onemanlogo'>
+      <ul class="navigation">
+        <li><%= link_to '系主页', department_path(@department) %></li>
+        <li><%= link_to '阅读他人经验', department_reviews_path(@department) %></li>
+        <li><%= link_to '观看院系视频', department_videos_path(@department) %></li>
+      </ul>
+  </div>
+</div>
+
+<div id="rightblock">
+    <div class = "booklistFrame">
+        <div class="liquid-slider"  id="slider-id">
+           <% @booklists.each do |booklist| %>
+            <div>
+              <h2 class="title"><%= booklist.title %></h2>
+              <p>整理人:<%= booklist.creator %><%=raw Kramdown::Document.new(booklist.intro).to_html%></p>
+            </div>
+          <% end %>
+        </div>
     </div>
-  <% end %>
 </div>
 <script>
 $(function(){

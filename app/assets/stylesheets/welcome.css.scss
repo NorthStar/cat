@@ -103,8 +103,8 @@ a:active,a:hover{
     position:fixed;
     height:100%;
     width: 100%;
-
-
+    left:0;
+    top:0;
     background-image: linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
     background-image: -o-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
     background-image: -moz-linear-gradient(left bottom, rgb(200,229,255) 37%, rgb(224,240,255) 69%);
@@ -158,6 +158,7 @@ a:active,a:hover{
     font-size:20px;
     color:rgba(0,86,161,0.9);
     z-index:1;
+    font-family:"ff-han";
 }
 /**
  * Wrapper for content, such as lists

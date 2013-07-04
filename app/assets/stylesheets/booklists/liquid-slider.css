@@ -66,7 +66,8 @@
 * max width instead
 *******************************************************/
 .liquid-slider-wrapper .liquid-slider {
-  background: #f2f2f2;
+  background: rgba(255,255,255,1);
+  font-family:"ff-han";
   width: 1030px;
   /* Do not edit below this line */
   float: left;
@@ -145,18 +146,19 @@
 * .currentCrossLink refers to external crosslinking.
 *******************************************************/
 .liquid-slider-wrapper .liquid-nav a {
-  background: #d8d8d8;
+  background: rgba(0,100,255,0.4);
+  font-family:"ff-han";
   color: #333333;
   margin-right: 1px;
   padding: 3px 6px;  
 }
 .liquid-slider-wrapper .liquid-nav a:hover {
-  background: #f2f2f2;
+  background: rgba(255,255,255,1);
   color: #333333;
   text-shadow: none;
 }
 .liquid-slider-wrapper .liquid-nav .current {
-  background: #f2f2f2;
+  background:rgba(255,255,255,1);
 }
 .currentCrossLink {
   font-weight: bold;

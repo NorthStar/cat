@@ -1,41 +1,30 @@
 <% content_for :head do %>
-   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
    <link rel="stylesheet" type="text/css" href="/assets/departments.css" />
-   <!--link rel="stylesheet" type="text/css" href="/assets/welcome.css" /-->
 <% end %>
 <div id="sidebar">
-  <img class="onemanlogo" src="/assets/home/logopng.png"> 
+  <a href="<%= department_path(@department)%>"><img class="roundLogo onemanlogo" src="<%= @department.coverUrl %>" width="150px"></a><br>
   <div class = "onemanlogo">
-      <center><a class = "css_btn_class" align="middle"> 
-         <%= @department.name %> 
-       </a></center>
-
-      <center><a class="css_btn_class" <%= link_to '看看院系书单', department_booklists_path(@department) %> 
-      </a></center>
-      <center><a class="css_btn_class" 
+       <center><div class="css_btn_class"><%= @department.name %>
+      </div></center>
+      <center><div class="css_btn_class"> <%= link_to '看看院系书单',department_booklists_path(@department) %>
+      </div></center>
+      <center><div class="css_btn_class">
         <%= link_to '阅读他人经验', department_reviews_path(@department) %>
-      <center></a></center>
-      <a class="css_btn_class" 
+      </div></center>
+      <center><div class="css_btn_class">
           <%= link_to '观看院系视频', department_videos_path(@department) %>
-      </a></center>
-
-  </div>  
-  <!--img class="onemanlogo" src="/assets/home/mottotext.png"-->
-  <div class='onemanlogo'>
-      <ul class="navigation">
-        <li>首页</li>
-        <li><a href="/departments"> 万门各院系 </a></li>
-        <li><a href="/xes">万门x项目</a></li>
-        <li>万门团队</li>
-      </ul>
-  </div>
+      </div></center>
+       <center><div class="css_btn_class"> <%= link_to '返回各系',departments_path %>
+      </div></center>
+  </div> 
 </div>
 
 <div id="rightblock">
     <div class = "centralFrame">
 
      <div class = "storyFrame">
-        <strong>描述:</strong>
+        <img class="roundLogo" src="<%= @department.coverUrl %>" width="150px"><br>
+        <strong> <%= @department.name %></strong>
          <div id="story"> <%= raw Kramdown::Document.new(@department.story).to_html %></div>
      </div>
     </div>
