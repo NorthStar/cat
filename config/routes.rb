@@ -1,4 +1,7 @@
 Wanmen::Application.routes.draw do
+  resources :users
+
+
   #get "welcome/index"
 
   resources :departments do

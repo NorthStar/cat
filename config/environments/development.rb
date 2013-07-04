@@ -14,7 +14,7 @@ Wanmen::Application.configure do
   config.action_controller.perform_caching = false
 
   # Don't care if the mailer can't send
-  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.raise_delivery_errors = true
 
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
@@ -31,7 +31,4 @@ Wanmen::Application.configure do
 
   # Do not compress assets
   config.assets.compress = false
-
-  # Expands the lines which load the assets
-  config.assets.debug = true
 end
