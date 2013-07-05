@@ -1,0 +1,71 @@
+<% content_for :head do %>
+   <link rel="stylesheet" type="text/css" href="/assets/welcome.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/about/style.css"  />
+  <script type="text/javascript" src="/assets/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/about/jquery.parallax-1.1.3.js"></script>
+  <script type="text/javascript" src="/assets/about/jquery.localscroll-1.2.7-min.js"></script>
+  <script type="text/javascript" src="/assets/about/jquery.scrollTo-1.4.2-min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('#nav').localScroll(800);
+    
+    //.parallax(xPosition, speedFactor, outerHeight) options:
+    //xPosition - Horizontal position of the element
+    //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+    //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+    $('#intro').parallax("50%", 0.1);
+    $('#second').parallax("50%", 0.1);
+    $('.bg').parallax("50%", 0.4);
+    $('#third').parallax("50%", 0.3);
+
+  })
+  </script>
+<% end %>
+<div id="sidebar">
+  <a href="/"><img class="onemanlogo" src="/assets/home/logopng.png" title="首页"></a>
+  <img class="onemanlogo" src="/assets/home/mottotext.png">
+  <div class='onemanlogo'>
+      <ul id="nav">
+    <li><a href="#intro" title="Next Section"><%=@teams[0].name %></a></li>
+      <li><a href="#second" title="Next Section"><%=@teams[1].name %></a></li>
+      <li><a href="#third" title="Next Section"><%=@teams[2].name %></a></li>
+      <li><a href="#fifth" title="Next Section">加入我们</a></li>
+    </ul>
+  </div>
+</div>
+  <div id="intro">
+      <div class="story">
+          <div class="float-left">
+            <h2><%=@teams[0].name %></h2>
+            <%= raw Kramdown::Document.new(@teams[0].description).to_html %>
+          </div>
+        </div> <!--.story-->
+    </div> <!--#intro-->
+    
+    <div id="second">
+      <div class="story"><div class="bg"></div>
+          <div class="float-right">
+              <h2><%=@teams[1].name %></h2>
+            <%= raw Kramdown::Document.new(@teams[1].description).to_html %>
+          </div>
+        </div> <!--.story-->
+        
+    </div> <!--#second-->
+    
+    <div id="third">
+      <div class="story">
+          <div class="float-left">
+            <h2><%=@teams[2].name %></h2>
+            <%= raw Kramdown::Document.new(@teams[2].description).to_html %>
+          </div>
+        </div> <!--.story-->
+    </div> <!--#third-->
+    
+    <div id="fifth">
+      <div class="story">
+        <div class="float-left">
+          <p>加入我们</p>
+            <iframe id="joinus" src="/users/new"></iframe>
+         </div>
+        </div> <!--.story-->
+    </div> <!--#fifth-->

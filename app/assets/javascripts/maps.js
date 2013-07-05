@@ -95,14 +95,13 @@ function addCustomMarker(rrPage,x,y,name){
 	
 }
 function addMarkers(){
-	if(!loaded)
-	{
-		mapObj.setZoom(4);
-		for (var i=0;i<markers.length;i++){
-			addCustomMarker(markers[i].rrPage,markers[i].lat,markers[i].lnt,markers[i].name);
-		}
-		loaded = true;
-	}else{
-		alert("已经载入");
+	mapObj.setZoom(4);
+	for (var i=0;i<markers.length;i++){
+		addCustomMarker(markers[i].rrPage,markers[i].lat,markers[i].lnt,markers[i].name);
 	}
+}
+function showMarker(i){
+	mapObj.setZoom(12);
+	mapObj.setCenter(new AMap.LngLat(markers[i].lat,markers[i].lnt));
+	addCustomMarker(markers[i].rrPage,markers[i].lat,markers[i].lnt,markers[i].name);
 }

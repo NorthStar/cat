@@ -1,4 +1,9 @@
 Wanmen::Application.routes.draw do
+  get "about/index"
+
+  resources :teams
+
+
   resources :users
 
 
@@ -13,7 +18,7 @@ Wanmen::Application.routes.draw do
   end
   resources :xes
   root :to => 'welcome#index'
-  
+  match 'about' => 'about#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
