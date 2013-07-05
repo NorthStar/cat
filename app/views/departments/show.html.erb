@@ -1,5 +1,6 @@
 <% content_for :head do %>
    <link rel="stylesheet" type="text/css" href="/assets/departments.css" />
+   <link rel="stylesheet" type="text/css" href="/assets/videos/style.css" />
 <% end %>
 <div id="sidebar">
   <a href="<%= department_path(@department)%>"><img class="roundLogo onemanlogo" src="<%= @department.coverUrl %>" width="150px"></a><br>
@@ -27,5 +28,59 @@
         <strong> <%= @department.name %></strong>
          <div id="story"> <%= raw Kramdown::Document.new(@department.story).to_html %></div>
      </div>
+     <div>最新视频</div>
+      <div id="da-thumbs" class="da-thumbs">
+        <% @videos.each do |video| %>
+        <li>
+          <a href="<%= video.url %>">
+            <img src="<%= video.img %>" width="200px"/>
+            <div><span><%= video.title %></span></div>
+          </a>
+        </li>
+        <% end %>
+      </div>
+       <div>最新经验贴</div>
+      <div id="da-thumbs" class="da-thumbs">
+        <% @reviews.each do |review| %>
+        <li>
+          <a href="<%=department_review_path(@department,review) %>">
+            <img src="http://k.mengxiang.org/uploads/201209/1346506541jdUmjXw2.jpg" width="200px"/>
+            <div><span><%= review.title %></span></div>
+          </a>
+        </li>
+        <% end %>
+      </div>
+
+       <div>最新书单</div>
+      <div id="da-thumbs" class="da-thumbs">
+        <% @booklists.each do |booklist| %>
+        <li>
+          <a href="<%=department_booklist_path(booklist) %>">
+            <img src="http://k.mengxiang.org/uploads/201209/1346506541jdUmjXw2.jpg" width="200px"/>
+            <div><span><%= booklist.title %></span></div>
+          </a>
+        </li>
+        <% end %>
+      </div>
     </div>
 </div>
+ <script type="text/javascript" src="/assets/jquery.min.js"></script>
+ <script type="text/javascript" src="/assets/videos/jquery.hoverdir.js"></script>
+  <script src="/assets/videos/modernizr.custom.97074.js"></script>
+  <script src="/assets/videos/unslider.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+
+        $(' #da-thumbs > li ').each( function() { $(this).hoverdir({
+          hoverDelay : 75
+        }); } );
+        $('.banner').unslider({
+          speed: 500,               //  The speed to animate each slide (in milliseconds)
+          delay: 1000,              //  The delay between slide animations (in milliseconds)
+          complete: function() {},  //  A function that gets called after every slide animation
+          keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+          dots: true,               //  Display dot navigation
+          fluid: false              //  Support responsive design. May break non-responsive designs
+        });
+      });
+    </script>

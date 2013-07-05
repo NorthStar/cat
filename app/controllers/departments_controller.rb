@@ -4,6 +4,9 @@ class DepartmentsController < ApplicationController
 	end
 	def show
  		@department = Department.find(params[:id])
+ 		@videos=@department.videos.find(:all, :order => "id desc", :limit => 4)
+ 		@reviews=@department.reviews.find(:all, :order => "id desc", :limit => 4)
+ 		@booklists=@department.booklists.find(:all, :order => "id desc", :limit => 4)
 	end
 	def create
 		@department = Department.new(params[:department])

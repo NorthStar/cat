@@ -233,11 +233,9 @@ a:active,a:hover{
     z-index: 1;
     display: block;
     top:20px;
-    left: 15%;
-    padding-left: 100px;
-    padding-right: 100px;
+    left: 10%;
     width: 70%;
-    position: fixed;
+    position: relative;
     overflow: scroll;
 }
 
@@ -387,5 +385,10 @@ ul.polaroids li a:hover { -webkit-transform: scale(1.25); -moz-transform: scale(
     left:20%;
     width:80%;
     height:80%;
+    overflow:scroll;
+}
+#da-thumbs{
+    position:relative;
+    height:200px;
     overflow:scroll;
 }
